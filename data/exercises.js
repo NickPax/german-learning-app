@@ -14,6 +14,7 @@ export const exercises = {
           options: ["Wasser", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Wasser' means water - a common drink order in German.",
+          translation: "I would like a bottle of water.",
           level: 1,
           vocabularyIds: ["wasser"]
         },
@@ -23,6 +24,7 @@ export const exercises = {
           options: ["Brot", "Auto", "Haus", "Stuhl"],
           correct: 0,
           explanation: "'Brot' means bread - a staple food in German cuisine.",
+          translation: "Can I please have a bread?",
           level: 1,
           vocabularyIds: ["brot"]
         },
@@ -32,6 +34,7 @@ export const exercises = {
           options: ["Wasser", "Auto", "Haus", "Stuhl"],
           correct: 0,
           explanation: "'Wasser' means water - a common drink.",
+          translation: "I like to drink water.",
           level: 1,
           vocabularyIds: ["wasser"]
         },
@@ -41,6 +44,7 @@ export const exercises = {
           options: ["gut", "schlecht", "groß", "klein"],
           correct: 0,
           explanation: "'gut' means good - used to describe tasty food.",
+          translation: "The food tastes very good.",
           level: 1,
           vocabularyIds: ["gut"]
         },
@@ -50,6 +54,7 @@ export const exercises = {
           options: ["esse", "gehe", "komme", "mache"],
           correct: 0,
           explanation: "'esse' means I eat - basic food verb.",
+          translation: "I like to eat.",
           level: 1,
           vocabularyIds: ["essen"]
         },
@@ -59,6 +64,7 @@ export const exercises = {
           options: ["trinke", "gehe", "komme", "mache"],
           correct: 0,
           explanation: "'trinke' means I drink - used with beverages.",
+          translation: "I like to drink water.",
           level: 1,
           vocabularyIds: ["trinken", "wasser"]
         },
@@ -68,6 +74,7 @@ export const exercises = {
           options: ["Essen", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Essen' means food - what you eat.",
+          translation: "The food is good.",
           level: 1,
           vocabularyIds: ["essen"]
         },
@@ -77,6 +84,7 @@ export const exercises = {
           options: ["Hunger", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hunger' means hunger - feeling hungry.",
+          translation: "I am hungry.",
           level: 1,
           vocabularyIds: ["hunger"]
         },
@@ -86,6 +94,7 @@ export const exercises = {
           options: ["esse", "gehe", "komme", "mache"],
           correct: 0,
           explanation: "'esse' means I eat - consuming food.",
+          translation: "I eat bread.",
           level: 1,
           vocabularyIds: ["essen", "brot"]
         },
@@ -95,6 +104,7 @@ export const exercises = {
           options: ["gut", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'gut' means good - describing food quality.",
+          translation: "The food is good.",
           level: 1,
           vocabularyIds: ["gut", "essen"]
         },
@@ -104,6 +114,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to eat.",
+          translation: "I go to eat.",
           level: 1,
           vocabularyIds: ["gehen", "essen"]
         },
@@ -113,6 +124,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - noticing a restaurant.",
+          translation: "I see a restaurant.",
           level: 1,
           vocabularyIds: ["sehen"]
         },
@@ -122,6 +134,7 @@ export const exercises = {
           options: ["esse", "gehe", "komme", "mache"],
           correct: 0,
           explanation: "'esse' means I eat - eating in the evening.",
+          translation: "I eat tonight.",
           level: 1,
           vocabularyIds: ["essen"]
         },
@@ -131,6 +144,7 @@ export const exercises = {
           options: ["Essen", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Essen' means food - something delicious.",
+          translation: "The food is delicious.",
           level: 1,
           vocabularyIds: ["essen"]
         },
@@ -152,6 +166,7 @@ export const exercises = {
           options: ["Fleisch", "Auto", "Haus", "Stuhl"],
           correct: 0,
           explanation: "'Fleisch' means meat - a common food item.",
+          translation: "I like to eat meat.",
           level: 2,
           vocabularyIds: ["fleisch"]
         },
@@ -161,6 +176,7 @@ export const exercises = {
           options: ["Bier", "Kaffee", "Wasser", "Milch"],
           correct: 1,
           explanation: "'Kaffee' means coffee - a common alternative to tea.",
+          translation: "Would you like a coffee or tea?",
           level: 2,
           vocabularyIds: ["kaffee", "tee"]
         },
@@ -170,6 +186,7 @@ export const exercises = {
           options: ["Kaffee", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Kaffee' means coffee - a popular beverage.",
+          translation: "I like to drink coffee.",
           level: 2,
           vocabularyIds: ["kaffee"]
         },
@@ -179,6 +196,7 @@ export const exercises = {
           options: ["Obst", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Obst' means fruit - healthy food choice.",
+          translation: "I like to eat fruit.",
           level: 2,
           vocabularyIds: ["obst"]
         },
@@ -188,6 +206,7 @@ export const exercises = {
           options: ["Milch", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Milch' means milk - a common drink.",
+          translation: "I drink milk.",
           level: 2,
           vocabularyIds: ["milch"]
         },
@@ -197,6 +216,7 @@ export const exercises = {
           options: ["Gemüse", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Gemüse' means vegetables - healthy food.",
+          translation: "I like to eat vegetables.",
           level: 2,
           vocabularyIds: ["gemüse"]
         },
@@ -206,6 +226,7 @@ export const exercises = {
           options: ["kaltes", "großes", "kleines", "neues"],
           correct: 0,
           explanation: "'kaltes' means cold - describing beer temperature.",
+          translation: "I drink a cold beer.",
           level: 2,
           vocabularyIds: ["bier"]
         },
@@ -215,6 +236,7 @@ export const exercises = {
           options: ["Getränk", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Getränk' means drink - beverage.",
+          translation: "The drink tastes good.",
           level: 2,
           vocabularyIds: ["getränk"]
         },
@@ -224,6 +246,7 @@ export const exercises = {
           options: ["Apfel", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Apfel' means apple - a fruit.",
+          translation: "I eat an apple.",
           level: 2,
           vocabularyIds: ["apfel"]
         },
@@ -233,6 +256,7 @@ export const exercises = {
           options: ["Tee", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Tee' means tea - a hot beverage.",
+          translation: "I drink a cup of tea.",
           level: 2,
           vocabularyIds: ["tee"]
         },
@@ -242,6 +266,7 @@ export const exercises = {
           options: ["Fisch", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Fisch' means fish - seafood.",
+          translation: "I like to eat fish.",
           level: 2,
           vocabularyIds: ["fisch"]
         },
@@ -251,6 +276,7 @@ export const exercises = {
           options: ["Wein", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Wein' means wine - an alcoholic beverage.",
+          translation: "I drink a glass of wine.",
           level: 2,
           vocabularyIds: ["wein"]
         },
@@ -260,6 +286,7 @@ export const exercises = {
           options: ["Käse", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Käse' means cheese - dairy product.",
+          translation: "I eat a piece of cheese.",
           level: 2,
           vocabularyIds: ["käse"]
         },
@@ -294,6 +321,7 @@ export const exercises = {
           options: ["Bahnhof", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Bahnhof' means train station - essential for travel.",
+          translation: "Where is the train station?",
           level: 1,
           vocabularyIds: ["bahnhof"]
         },
@@ -303,6 +331,7 @@ export const exercises = {
           options: ["Zug", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Zug' means train - a common mode of transportation.",
+          translation: "I travel by train to Berlin.",
           level: 1,
           vocabularyIds: ["zug", "fahren"]
         },
@@ -312,6 +341,7 @@ export const exercises = {
           options: ["fahre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fahre' means I drive/travel - used with vehicles.",
+          translation: "I drive by car.",
           level: 1,
           vocabularyIds: ["fahren", "auto"]
         },
@@ -321,6 +351,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - asking where to go.",
+          translation: "Where do I go?",
           level: 1,
           vocabularyIds: ["gehen"]
         },
@@ -330,6 +361,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going home.",
+          translation: "I go home.",
           level: 1,
           vocabularyIds: ["gehen", "haus"]
         },
@@ -339,6 +371,7 @@ export const exercises = {
           options: ["fahre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fahre' means I travel - using the bus.",
+          translation: "I travel by bus.",
           level: 1,
           vocabularyIds: ["fahren", "bus"]
         },
@@ -348,6 +381,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to the station.",
+          translation: "I go to the train station.",
           level: 1,
           vocabularyIds: ["gehen", "bahnhof"]
         },
@@ -357,6 +391,7 @@ export const exercises = {
           options: ["Zug", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Zug' means train - departing train.",
+          translation: "The train departs.",
           level: 1,
           vocabularyIds: ["zug"]
         },
@@ -366,6 +401,7 @@ export const exercises = {
           options: ["fahre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fahre' means I travel - by train.",
+          translation: "I travel by train.",
           level: 1,
           vocabularyIds: ["fahren", "zug"]
         },
@@ -375,6 +411,7 @@ export const exercises = {
           options: ["reise", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'reise' means I travel - traveling today.",
+          translation: "I travel today.",
           level: 1,
           vocabularyIds: ["reisen"]
         },
@@ -384,6 +421,7 @@ export const exercises = {
           options: ["fahre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fahre' means I travel - to another city.",
+          translation: "I travel to another city.",
           level: 1,
           vocabularyIds: ["fahren", "stadt"]
         },
@@ -393,6 +431,7 @@ export const exercises = {
           options: ["ist", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'ist' means is - asking where the train is.",
+          translation: "Where is the train?",
           level: 1,
           vocabularyIds: ["sein", "zug"]
         },
@@ -402,6 +441,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to the airport.",
+          translation: "I go to the airport.",
           level: 1,
           vocabularyIds: ["gehen"]
         },
@@ -411,6 +451,7 @@ export const exercises = {
           options: ["Zug", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Zug' means train - arriving train.",
+          translation: "The train arrives.",
           level: 1,
           vocabularyIds: ["zug", "kommen"]
         },
@@ -432,6 +473,7 @@ export const exercises = {
           options: ["Flughafen", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Flughafen' means airport - where planes land.",
+          translation: "My plane lands at the airport.",
           level: 2,
           vocabularyIds: ["flughafen", "flugzeug"]
         },
@@ -441,6 +483,7 @@ export const exercises = {
           options: ["Urlaub", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Urlaub' means vacation - something you book for travel.",
+          translation: "I have booked a vacation.",
           level: 2,
           vocabularyIds: ["urlaub", "buchen"]
         },
@@ -450,6 +493,7 @@ export const exercises = {
           options: ["fliege", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fliege' means I fly - traveling by plane.",
+          translation: "I fly by plane.",
           level: 2,
           vocabularyIds: ["fliegen", "flugzeug"]
         },
@@ -459,6 +503,7 @@ export const exercises = {
           options: ["kaufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kaufe' means I buy - purchasing a ticket.",
+          translation: "I buy a ticket.",
           level: 2,
           vocabularyIds: ["kaufen", "karte"]
         },
@@ -468,6 +513,7 @@ export const exercises = {
           options: ["fahre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fahre' means I ride - using a bicycle.",
+          translation: "I ride a bicycle.",
           level: 2,
           vocabularyIds: ["fahren", "fahrrad"]
         },
@@ -477,6 +523,7 @@ export const exercises = {
           options: ["plane", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'plane' means I plan - planning a trip.",
+          translation: "I plan a trip.",
           level: 2,
           vocabularyIds: ["planen", "reise"]
         },
@@ -486,6 +533,7 @@ export const exercises = {
           options: ["wohne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'wohne' means I stay - staying at a hotel.",
+          translation: "I stay at the hotel.",
           level: 2,
           vocabularyIds: ["wohnen", "hotel"]
         },
@@ -495,6 +543,7 @@ export const exercises = {
           options: ["komme", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'komme' means I arrive - arriving at the station.",
+          translation: "I arrive at the train station.",
           level: 2,
           vocabularyIds: ["kommen", "bahnhof"]
         },
@@ -504,6 +553,7 @@ export const exercises = {
           options: ["fahre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fahre' means I depart - leaving the airport.",
+          translation: "I depart from the airport.",
           level: 2,
           vocabularyIds: ["fahren", "flughafen"]
         },
@@ -513,6 +563,7 @@ export const exercises = {
           options: ["steige", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'steige' means I board - getting on the train.",
+          translation: "I board the train.",
           level: 2,
           vocabularyIds: ["einsteigen", "zug"]
         },
@@ -522,6 +573,7 @@ export const exercises = {
           options: ["steige", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'steige' means I get off - exiting the bus.",
+          translation: "I get off the bus.",
           level: 2,
           vocabularyIds: ["aussteigen", "bus"]
         },
@@ -531,6 +583,7 @@ export const exercises = {
           options: ["reserviere", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'reserviere' means I reserve - booking a hotel.",
+          translation: "I reserve a hotel.",
           level: 2,
           vocabularyIds: ["reservieren", "hotel"]
         },
@@ -540,6 +593,7 @@ export const exercises = {
           options: ["buche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'buche' means I book - booking a trip.",
+          translation: "I book a trip.",
           level: 2,
           vocabularyIds: ["buchen", "reise"]
         },
@@ -574,6 +628,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - the people you're related to.",
+          translation: "My family is very nice.",
           level: 1,
           vocabularyIds: ["familie"]
         },
@@ -583,6 +638,7 @@ export const exercises = {
           options: ["liebe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'liebe' means I love - expressing affection for family.",
+          translation: "I love my family.",
           level: 1,
           vocabularyIds: ["lieben", "familie"]
         },
@@ -592,6 +648,7 @@ export const exercises = {
           options: ["liebe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'liebe' means I love - strong family bond.",
+          translation: "I love my family very much.",
           level: 1,
           vocabularyIds: ["lieben", "familie"]
         },
@@ -601,6 +658,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - describing family size.",
+          translation: "My family is large.",
           level: 1,
           vocabularyIds: ["familie", "groß"]
         },
@@ -610,6 +668,7 @@ export const exercises = {
           options: ["wohne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'wohne' means I live - living with family.",
+          translation: "I live with my family.",
           level: 1,
           vocabularyIds: ["wohnen", "familie"]
         },
@@ -619,6 +678,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - seeing family daily.",
+          translation: "I see my family every day.",
           level: 1,
           vocabularyIds: ["sehen", "familie"]
         },
@@ -628,6 +688,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - family is important.",
+          translation: "My family is important.",
           level: 1,
           vocabularyIds: ["familie", "wichtig"]
         },
@@ -637,6 +698,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to family.",
+          translation: "I go to my family.",
           level: 1,
           vocabularyIds: ["gehen", "familie"]
         },
@@ -646,6 +708,7 @@ export const exercises = {
           options: ["komme", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'komme' means I come - coming from family.",
+          translation: "I come from my family.",
           level: 1,
           vocabularyIds: ["kommen", "familie"]
         },
@@ -655,6 +718,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - beautiful family.",
+          translation: "My family is beautiful.",
           level: 1,
           vocabularyIds: ["familie", "schön"]
         },
@@ -664,6 +728,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being with family.",
+          translation: "I am with my family.",
           level: 1,
           vocabularyIds: ["sein", "familie"]
         },
@@ -673,6 +738,7 @@ export const exercises = {
           options: ["habe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'habe' means I have - having family.",
+          translation: "I have my family gladly.",
           level: 1,
           vocabularyIds: ["haben", "familie"]
         },
@@ -682,6 +748,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - good family.",
+          translation: "My family is good.",
           level: 1,
           vocabularyIds: ["familie", "gut"]
         },
@@ -691,6 +758,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going home to family.",
+          translation: "I go home to my family.",
           level: 1,
           vocabularyIds: ["gehen", "familie", "haus"]
         },
@@ -712,6 +780,7 @@ export const exercises = {
           options: ["Vater", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Vater' means father - a family member.",
+          translation: "My father works as a teacher.",
           level: 2,
           vocabularyIds: ["vater", "lehrer"]
         },
@@ -721,6 +790,7 @@ export const exercises = {
           options: ["Bruder", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Bruder' means brother - a sibling.",
+          translation: "I have a brother and a sister.",
           level: 2,
           vocabularyIds: ["bruder", "schwester"]
         },
@@ -730,6 +800,7 @@ export const exercises = {
           options: ["Tochter", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Tochter' means daughter - a family member.",
+          translation: "My daughter is my best friend.",
           level: 2,
           vocabularyIds: ["tochter", "freundin"]
         },
@@ -739,6 +810,7 @@ export const exercises = {
           options: ["Mutter", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Mutter' means mother - family member who cooks.",
+          translation: "My mother cooks very well.",
           level: 2,
           vocabularyIds: ["mutter", "kochen"]
         },
@@ -748,6 +820,7 @@ export const exercises = {
           options: ["Sohn", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Sohn' means son - a family member.",
+          translation: "I have a son.",
           level: 2,
           vocabularyIds: ["sohn"]
         },
@@ -757,6 +830,7 @@ export const exercises = {
           options: ["Vater", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Vater' means father - nice father.",
+          translation: "My father is very nice.",
           level: 2,
           vocabularyIds: ["vater"]
         },
@@ -766,6 +840,7 @@ export const exercises = {
           options: ["Schwester", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schwester' means sister - a sibling.",
+          translation: "I have a sister.",
           level: 2,
           vocabularyIds: ["schwester"]
         },
@@ -775,6 +850,7 @@ export const exercises = {
           options: ["Bruder", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Bruder' means brother - best friend.",
+          translation: "My brother is my best friend.",
           level: 2,
           vocabularyIds: ["bruder", "freund"]
         },
@@ -784,6 +860,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - visiting mother.",
+          translation: "I visit my mother.",
           level: 2,
           vocabularyIds: ["besuchen", "mutter"]
         },
@@ -793,6 +870,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - friendly family.",
+          translation: "My family is very friendly.",
           level: 2,
           vocabularyIds: ["familie"]
         },
@@ -802,6 +880,7 @@ export const exercises = {
           options: ["spreche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spreche' means I speak - talking with father.",
+          translation: "I speak with my father.",
           level: 2,
           vocabularyIds: ["sprechen", "vater"]
         },
@@ -811,6 +890,7 @@ export const exercises = {
           options: ["Mutter", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Mutter' means mother - always helping.",
+          translation: "My mother always helps me.",
           level: 2,
           vocabularyIds: ["mutter", "helfen"]
         },
@@ -820,6 +900,7 @@ export const exercises = {
           options: ["liebe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'liebe' means I love - loving sister.",
+          translation: "I love my sister very much.",
           level: 2,
           vocabularyIds: ["lieben", "schwester"]
         },
@@ -854,6 +935,7 @@ export const exercises = {
           options: ["Laden", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Laden' means shop/store - where you go shopping.",
+          translation: "I go shopping in the store.",
           level: 1,
           vocabularyIds: ["laden", "kaufen"]
         },
@@ -863,6 +945,7 @@ export const exercises = {
           options: ["kaufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kaufe' means I buy - the action of shopping.",
+          translation: "I buy a book.",
           level: 1,
           vocabularyIds: ["kaufen"]
         },
@@ -872,6 +955,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to the shop.",
+          translation: "I go to the store.",
           level: 1,
           vocabularyIds: ["gehen", "laden"]
         },
@@ -881,6 +965,7 @@ export const exercises = {
           options: ["kaufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kaufe' means I buy - buying something.",
+          translation: "I buy something.",
           level: 1,
           vocabularyIds: ["kaufen"]
         },
@@ -890,6 +975,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being in the shop.",
+          translation: "I am in the store.",
           level: 1,
           vocabularyIds: ["sein", "laden"]
         },
@@ -899,6 +985,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - seeing the shop.",
+          translation: "I see the store.",
           level: 1,
           vocabularyIds: ["sehen", "laden"]
         },
@@ -908,6 +995,7 @@ export const exercises = {
           options: ["kaufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kaufe' means I buy - enjoying shopping.",
+          translation: "I like to buy.",
           level: 1,
           vocabularyIds: ["kaufen"]
         },
@@ -917,6 +1005,7 @@ export const exercises = {
           options: ["Laden", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Laden' means shop - large shop.",
+          translation: "The store is large.",
           level: 1,
           vocabularyIds: ["laden", "groß"]
         },
@@ -926,6 +1015,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going shopping today.",
+          translation: "I go shopping today.",
           level: 1,
           vocabularyIds: ["gehen", "kaufen"]
         },
@@ -935,6 +1025,7 @@ export const exercises = {
           options: ["kaufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kaufe' means I buy - buying a lot.",
+          translation: "I buy a lot.",
           level: 1,
           vocabularyIds: ["kaufen", "viel"]
         },
@@ -944,6 +1035,7 @@ export const exercises = {
           options: ["Laden", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Laden' means shop - good shop.",
+          translation: "The store is good.",
           level: 1,
           vocabularyIds: ["laden", "gut"]
         },
@@ -953,6 +1045,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going shopping.",
+          translation: "I go shopping.",
           level: 1,
           vocabularyIds: ["gehen", "kaufen"]
         },
@@ -962,6 +1055,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - in the shop.",
+          translation: "I am in the store.",
           level: 1,
           vocabularyIds: ["sein", "laden"]
         },
@@ -971,6 +1065,7 @@ export const exercises = {
           options: ["kaufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kaufe' means I buy - buying something new.",
+          translation: "I buy something new.",
           level: 1,
           vocabularyIds: ["kaufen", "neu"]
         },
@@ -992,6 +1087,7 @@ export const exercises = {
           options: ["Preis", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Preis' means price - what something costs.",
+          translation: "How much does that cost? What is the price?",
           level: 2,
           vocabularyIds: ["preis", "geld"]
         },
@@ -1001,6 +1097,7 @@ export const exercises = {
           options: ["Geld", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Geld' means money - used for payment.",
+          translation: "I have to pay with money.",
           level: 2,
           vocabularyIds: ["geld", "bezahlen"]
         },
@@ -1010,6 +1107,7 @@ export const exercises = {
           options: ["frage", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'frage' means I ask - asking about price.",
+          translation: "I ask about the price.",
           level: 2,
           vocabularyIds: ["fragen", "preis"]
         },
@@ -1019,6 +1117,7 @@ export const exercises = {
           options: ["bezahle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bezahle' means I pay - paying at restaurant.",
+          translation: "I pay at the restaurant.",
           level: 2,
           vocabularyIds: ["bezahlen"]
         },
@@ -1028,6 +1127,7 @@ export const exercises = {
           options: ["Preis", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Preis' means price - high price.",
+          translation: "The price is high.",
           level: 2,
           vocabularyIds: ["preis"]
         },
@@ -1037,6 +1137,7 @@ export const exercises = {
           options: ["Geld", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Geld' means money - no money.",
+          translation: "I have no money.",
           level: 2,
           vocabularyIds: ["geld"]
         },
@@ -1046,6 +1147,7 @@ export const exercises = {
           options: ["habe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'habe' means I have - having money.",
+          translation: "I have a lot of money.",
           level: 2,
           vocabularyIds: ["haben", "geld"]
         },
@@ -1055,6 +1157,7 @@ export const exercises = {
           options: ["kenne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kenne' means I know - not knowing the price.",
+          translation: "I don't know the price.",
           level: 2,
           vocabularyIds: ["wissen", "preis"]
         },
@@ -1064,6 +1167,7 @@ export const exercises = {
           options: ["Preis", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Preis' means price - cheap price.",
+          translation: "The price is cheap.",
           level: 2,
           vocabularyIds: ["preis", "billig"]
         },
@@ -1073,6 +1177,7 @@ export const exercises = {
           options: ["bezahle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bezahle' means I pay - paying with card.",
+          translation: "I pay with card.",
           level: 2,
           vocabularyIds: ["bezahlen", "karte"]
         },
@@ -1082,6 +1187,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - visiting the shop.",
+          translation: "I visit the store.",
           level: 2,
           vocabularyIds: ["besuchen", "laden"]
         },
@@ -1091,6 +1197,7 @@ export const exercises = {
           options: ["frage", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'frage' means I ask - asking for price.",
+          translation: "I ask about the price.",
           level: 2,
           vocabularyIds: ["fragen", "preis"]
         },
@@ -1100,6 +1207,7 @@ export const exercises = {
           options: ["kostet", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kostet' means costs - too expensive.",
+          translation: "That costs too much.",
           level: 2,
           vocabularyIds: ["kosten"]
         },
@@ -1134,6 +1242,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - used for sports and games.",
+          translation: "I like to play soccer.",
           level: 1,
           vocabularyIds: ["spielen"]
         },
@@ -1143,6 +1252,7 @@ export const exercises = {
           options: ["höre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'höre' means I listen - used for music.",
+          translation: "I like to listen to music.",
           level: 1,
           vocabularyIds: ["hören"]
         },
@@ -1152,6 +1262,7 @@ export const exercises = {
           options: ["lese", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lese' means I read - a common hobby.",
+          translation: "I like to read.",
           level: 1,
           vocabularyIds: ["lesen"]
         },
@@ -1161,6 +1272,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - enjoying games.",
+          translation: "I like to play.",
           level: 1,
           vocabularyIds: ["spielen"]
         },
@@ -1170,6 +1282,7 @@ export const exercises = {
           options: ["höre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'höre' means I listen - listening to music.",
+          translation: "I like to listen.",
           level: 1,
           vocabularyIds: ["hören"]
         },
@@ -1179,6 +1292,7 @@ export const exercises = {
           options: ["lese", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lese' means I read - reading daily.",
+          translation: "I read every day.",
           level: 1,
           vocabularyIds: ["lesen"]
         },
@@ -1188,6 +1302,7 @@ export const exercises = {
           options: ["mache", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'mache' means I do - doing sports.",
+          translation: "I like to do sports.",
           level: 1,
           vocabularyIds: ["machen"]
         },
@@ -1197,6 +1312,7 @@ export const exercises = {
           options: ["tanze", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'tanze' means I dance - dancing hobby.",
+          translation: "I like to dance.",
           level: 1,
           vocabularyIds: ["tanzen"]
         },
@@ -1206,6 +1322,7 @@ export const exercises = {
           options: ["singe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'singe' means I sing - singing hobby.",
+          translation: "I like to sing.",
           level: 1,
           vocabularyIds: ["singen"]
         },
@@ -1215,6 +1332,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to the park.",
+          translation: "I like to go to the park.",
           level: 1,
           vocabularyIds: ["gehen"]
         },
@@ -1224,6 +1342,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I watch - watching movies.",
+          translation: "I like to watch movies.",
           level: 1,
           vocabularyIds: ["sehen"]
         },
@@ -1233,6 +1352,7 @@ export const exercises = {
           options: ["laufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'laufe' means I run/walk - running hobby.",
+          translation: "I like to run.",
           level: 1,
           vocabularyIds: ["laufen"]
         },
@@ -1242,6 +1362,7 @@ export const exercises = {
           options: ["höre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'höre' means I listen - listening hobby.",
+          translation: "I like to listen to music.",
           level: 1,
           vocabularyIds: ["hören"]
         },
@@ -1251,6 +1372,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - playing games.",
+          translation: "I like to play games.",
           level: 1,
           vocabularyIds: ["spielen"]
         },
@@ -1272,6 +1394,7 @@ export const exercises = {
           options: ["Buch", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Buch' means book - something you read as a hobby.",
+          translation: "On the weekend I read a good book.",
           level: 2,
           vocabularyIds: ["buch", "lesen"]
         },
@@ -1281,6 +1404,7 @@ export const exercises = {
           options: ["laufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'laufe' means I run/walk - a common hobby.",
+          translation: "I like to run in the park.",
           level: 2,
           vocabularyIds: ["laufen"]
         },
@@ -1290,6 +1414,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going swimming.",
+          translation: "I like to go swimming.",
           level: 2,
           vocabularyIds: ["gehen", "schwimmen"]
         },
@@ -1299,6 +1424,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - playing guitar.",
+          translation: "I like to play guitar.",
           level: 2,
           vocabularyIds: ["spielen"]
         },
@@ -1308,6 +1434,7 @@ export const exercises = {
           options: ["trainiere", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'trainiere' means I train - training at gym.",
+          translation: "I like to train at the gym.",
           level: 2,
           vocabularyIds: ["trainieren"]
         },
@@ -1317,6 +1444,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - playing video games.",
+          translation: "I like to play video games.",
           level: 2,
           vocabularyIds: ["spielen"]
         },
@@ -1326,6 +1454,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going hiking.",
+          translation: "I like to go hiking.",
           level: 2,
           vocabularyIds: ["gehen"]
         },
@@ -1335,6 +1464,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - learning to cook.",
+          translation: "I like to learn to cook.",
           level: 2,
           vocabularyIds: ["lernen", "kochen"]
         },
@@ -1344,6 +1474,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - learning to paint.",
+          translation: "I like to learn to paint.",
           level: 2,
           vocabularyIds: ["lernen"]
         },
@@ -1353,6 +1484,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going cycling.",
+          translation: "I like to go cycling.",
           level: 2,
           vocabularyIds: ["gehen", "fahrrad"]
         },
@@ -1362,6 +1494,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to cinema.",
+          translation: "I like to go to the cinema.",
           level: 2,
           vocabularyIds: ["gehen"]
         },
@@ -1371,6 +1504,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - visiting theater.",
+          translation: "I like to visit the theater.",
           level: 2,
           vocabularyIds: ["besuchen"]
         },
@@ -1380,6 +1514,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - visiting concerts.",
+          translation: "I like to visit concerts.",
           level: 2,
           vocabularyIds: ["besuchen"]
         },
@@ -1414,6 +1549,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - a common pet.",
+          translation: "My dog is called Max.",
           level: 1,
           vocabularyIds: ["hund"]
         },
@@ -1423,6 +1559,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - observing your pet.",
+          translation: "I see my dog.",
           level: 1,
           vocabularyIds: ["sehen", "hund"]
         },
@@ -1432,6 +1569,7 @@ export const exercises = {
           options: ["liebe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'liebe' means I love - loving your pet.",
+          translation: "I love my dog very much.",
           level: 1,
           vocabularyIds: ["lieben", "hund"]
         },
@@ -1441,6 +1579,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - large dog.",
+          translation: "My dog is large.",
           level: 1,
           vocabularyIds: ["hund", "groß"]
         },
@@ -1450,6 +1589,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - seeing dog daily.",
+          translation: "I see my dog every day.",
           level: 1,
           vocabularyIds: ["sehen", "hund"]
         },
@@ -1459,6 +1599,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - small dog.",
+          translation: "My dog is small.",
           level: 1,
           vocabularyIds: ["hund", "klein"]
         },
@@ -1468,6 +1609,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - playing with dog.",
+          translation: "I play with my dog.",
           level: 1,
           vocabularyIds: ["spielen", "hund"]
         },
@@ -1477,6 +1619,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - good dog.",
+          translation: "My dog is good.",
           level: 1,
           vocabularyIds: ["hund", "gut"]
         },
@@ -1486,6 +1629,7 @@ export const exercises = {
           options: ["habe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'habe' means I have - having a dog.",
+          translation: "I have my dog.",
           level: 1,
           vocabularyIds: ["haben", "hund"]
         },
@@ -1495,6 +1639,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - beautiful dog.",
+          translation: "My dog is beautiful.",
           level: 1,
           vocabularyIds: ["hund", "schön"]
         },
@@ -1504,6 +1649,7 @@ export const exercises = {
           options: ["habe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'habe' means I have - having dog gladly.",
+          translation: "I have my dog gladly.",
           level: 1,
           vocabularyIds: ["haben", "hund"]
         },
@@ -1513,6 +1659,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - nice dog.",
+          translation: "My dog is nice.",
           level: 1,
           vocabularyIds: ["hund"]
         },
@@ -1522,6 +1669,7 @@ export const exercises = {
           options: ["füttere", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'füttere' means I feed - feeding dog.",
+          translation: "I feed my dog.",
           level: 1,
           vocabularyIds: ["füttern", "hund"]
         },
@@ -1531,6 +1679,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - fast running dog.",
+          translation: "My dog runs fast.",
           level: 1,
           vocabularyIds: ["hund", "laufen"]
         },
@@ -1552,6 +1701,7 @@ export const exercises = {
           options: ["Katze", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Katze' means cat - another common pet.",
+          translation: "The cat sits on the windowsill.",
           level: 2,
           vocabularyIds: ["katze"]
         },
@@ -1561,6 +1711,7 @@ export const exercises = {
           options: ["Tiere", "Häuser", "Autos", "Stühle"],
           correct: 0,
           explanation: "'Tiere' means animals - what you see at the zoo.",
+          translation: "At the zoo I see many animals.",
           level: 2,
           vocabularyIds: ["tier"]
         },
@@ -1570,6 +1721,7 @@ export const exercises = {
           options: ["Vogel", "Hund", "Katze", "Fisch"],
           correct: 0,
           explanation: "'Vogel' means bird - an animal that flies.",
+          translation: "The bird flies through the air.",
           level: 2,
           vocabularyIds: ["vogel"]
         },
@@ -1579,6 +1731,7 @@ export const exercises = {
           options: ["Pferd", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Pferd' means horse - zoo animal.",
+          translation: "I see a horse at the zoo.",
           level: 2,
           vocabularyIds: ["pferd"]
         },
@@ -1588,6 +1741,7 @@ export const exercises = {
           options: ["Kuh", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Kuh' means cow - farm animal.",
+          translation: "The cow gives milk.",
           level: 2,
           vocabularyIds: ["kuh"]
         },
@@ -1597,6 +1751,7 @@ export const exercises = {
           options: ["Vogel", "Hund", "Katze", "Fisch"],
           correct: 0,
           explanation: "'Vogel' means bird - forest animal.",
+          translation: "I see a bird in the forest.",
           level: 2,
           vocabularyIds: ["vogel"]
         },
@@ -1606,6 +1761,7 @@ export const exercises = {
           options: ["Katze", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Katze' means cat - sweet cat.",
+          translation: "My cat is very sweet.",
           level: 2,
           vocabularyIds: ["katze"]
         },
@@ -1615,6 +1771,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - seeing animals at zoo.",
+          translation: "I see many animals at the zoo.",
           level: 2,
           vocabularyIds: ["sehen", "tier"]
         },
@@ -1624,6 +1781,7 @@ export const exercises = {
           options: ["Fisch", "Hund", "Katze", "Vogel"],
           correct: 0,
           explanation: "'Fisch' means fish - water animal.",
+          translation: "The fish swims in the water.",
           level: 2,
           vocabularyIds: ["fisch"]
         },
@@ -1633,6 +1791,7 @@ export const exercises = {
           options: ["beobachte", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'beobachte' means I observe - observing animals.",
+          translation: "I like to observe animals.",
           level: 2,
           vocabularyIds: ["beobachten", "tier"]
         },
@@ -1642,6 +1801,7 @@ export const exercises = {
           options: ["Tier", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Tier' means animal - large animal.",
+          translation: "The animal is very large.",
           level: 2,
           vocabularyIds: ["tier", "groß"]
         },
@@ -1651,6 +1811,7 @@ export const exercises = {
           options: ["helfe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'helfe' means I help - helping cat.",
+          translation: "I help my cat.",
           level: 2,
           vocabularyIds: ["helfen", "katze"]
         },
@@ -1660,6 +1821,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - smart dog.",
+          translation: "My dog is very smart.",
           level: 2,
           vocabularyIds: ["hund"]
         },
@@ -1694,6 +1856,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - what you do at a job.",
+          translation: "I work from Monday to Friday.",
           level: 1,
           vocabularyIds: ["arbeiten"]
         },
@@ -1703,6 +1866,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work/job - your occupation.",
+          translation: "My work is important.",
           level: 1,
           vocabularyIds: ["arbeit", "wichtig"]
         },
@@ -1712,6 +1876,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - daily work routine.",
+          translation: "I work every day.",
           level: 1,
           vocabularyIds: ["arbeiten"]
         },
@@ -1721,6 +1886,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - working today.",
+          translation: "I work today.",
           level: 1,
           vocabularyIds: ["arbeiten"]
         },
@@ -1730,6 +1896,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work - good work.",
+          translation: "My work is good.",
           level: 1,
           vocabularyIds: ["arbeit", "gut"]
         },
@@ -1739,6 +1906,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - enjoying work.",
+          translation: "I like to work.",
           level: 1,
           vocabularyIds: ["arbeiten"]
         },
@@ -1748,6 +1916,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - working a lot.",
+          translation: "I work a lot.",
           level: 1,
           vocabularyIds: ["arbeiten", "viel"]
         },
@@ -1757,6 +1926,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work - interesting work.",
+          translation: "My work is interesting.",
           level: 1,
           vocabularyIds: ["arbeit"]
         },
@@ -1766,6 +1936,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - working tomorrow.",
+          translation: "I work tomorrow.",
           level: 1,
           vocabularyIds: ["arbeiten"]
         },
@@ -1775,6 +1946,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to work.",
+          translation: "I go to work.",
           level: 1,
           vocabularyIds: ["gehen", "arbeit"]
         },
@@ -1784,6 +1956,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work - new job.",
+          translation: "My work is new.",
           level: 1,
           vocabularyIds: ["arbeit", "neu"]
         },
@@ -1793,6 +1966,7 @@ export const exercises = {
           options: ["komme", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'komme' means I come - coming from work.",
+          translation: "I come from work.",
           level: 1,
           vocabularyIds: ["kommen", "arbeit"]
         },
@@ -1802,6 +1976,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being at work.",
+          translation: "I am at work.",
           level: 1,
           vocabularyIds: ["sein", "arbeit"]
         },
@@ -1811,6 +1986,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work - fun work.",
+          translation: "My work is fun.",
           level: 1,
           vocabularyIds: ["arbeit"]
         },
@@ -1832,6 +2008,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' can also mean tasks or work to be done.",
+          translation: "I have a lot of work to do today.",
           level: 2,
           vocabularyIds: ["arbeit"]
         },
@@ -1841,6 +2018,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to office.",
+          translation: "I go to the office.",
           level: 2,
           vocabularyIds: ["gehen"]
         },
@@ -1850,6 +2028,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - working with colleagues.",
+          translation: "I work with my colleagues.",
           level: 2,
           vocabularyIds: ["arbeiten"]
         },
@@ -1859,6 +2038,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work - very interesting work.",
+          translation: "My work is very interesting.",
           level: 2,
           vocabularyIds: ["arbeit"]
         },
@@ -1868,6 +2048,7 @@ export const exercises = {
           options: ["habe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'habe' means I have - having a new job.",
+          translation: "I have a new job.",
           level: 2,
           vocabularyIds: ["haben", "arbeit"]
         },
@@ -1877,6 +2058,7 @@ export const exercises = {
           options: ["beginne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'beginne' means I start - starting work at 9.",
+          translation: "I start at nine o'clock.",
           level: 2,
           vocabularyIds: ["beginnen"]
         },
@@ -1886,6 +2068,7 @@ export const exercises = {
           options: ["ende", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'ende' means I end - ending work at 5.",
+          translation: "I finish at five o'clock.",
           level: 2,
           vocabularyIds: ["enden"]
         },
@@ -1895,6 +2078,7 @@ export const exercises = {
           options: ["mache", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'mache' means I take - taking a break.",
+          translation: "I take a break.",
           level: 2,
           vocabularyIds: ["machen"]
         },
@@ -1904,6 +2088,7 @@ export const exercises = {
           options: ["Chef", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Chef' means boss - nice boss.",
+          translation: "My boss is very nice.",
           level: 2,
           vocabularyIds: ["chef"]
         },
@@ -1913,6 +2098,7 @@ export const exercises = {
           options: ["spreche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spreche' means I speak - talking with boss.",
+          translation: "I speak with my boss.",
           level: 2,
           vocabularyIds: ["sprechen"]
         },
@@ -1922,6 +2108,7 @@ export const exercises = {
           options: ["plane", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'plane' means I plan - planning projects.",
+          translation: "I plan projects.",
           level: 2,
           vocabularyIds: ["planen"]
         },
@@ -1931,6 +2118,7 @@ export const exercises = {
           options: ["erledige", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'erledige' means I complete - completing tasks.",
+          translation: "I complete tasks.",
           level: 2,
           vocabularyIds: ["erledigen"]
         },
@@ -1940,6 +2128,7 @@ export const exercises = {
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work - demanding work.",
+          translation: "My work is demanding.",
           level: 2,
           vocabularyIds: ["arbeit"]
         },
@@ -1974,6 +2163,7 @@ export const exercises = {
           options: ["krank", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'krank' means sick/ill - when you don't feel well.",
+          translation: "I don't feel well. I am sick.",
           level: 1,
           vocabularyIds: ["krank"]
         },
@@ -1983,6 +2173,7 @@ export const exercises = {
           options: ["gesund", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'gesund' means healthy - feeling well.",
+          translation: "I am healthy.",
           level: 1,
           vocabularyIds: ["gesund"]
         },
@@ -1992,6 +2183,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - describing how you feel.",
+          translation: "I feel good.",
           level: 1,
           vocabularyIds: ["fühle"]
         },
@@ -2001,6 +2193,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - not feeling well.",
+          translation: "I don't feel well.",
           level: 1,
           vocabularyIds: ["fühle"]
         },
@@ -2010,6 +2203,7 @@ export const exercises = {
           options: ["krank", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'krank' means sick - being ill.",
+          translation: "I am sick.",
           level: 1,
           vocabularyIds: ["krank"]
         },
@@ -2019,6 +2213,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being healthy.",
+          translation: "I am healthy.",
           level: 1,
           vocabularyIds: ["sein", "gesund"]
         },
@@ -2028,6 +2223,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - feeling good.",
+          translation: "I feel good.",
           level: 1,
           vocabularyIds: ["fühle"]
         },
@@ -2037,6 +2233,7 @@ export const exercises = {
           options: ["krank", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'krank' means sick - not being sick.",
+          translation: "I am not sick.",
           level: 1,
           vocabularyIds: ["krank"]
         },
@@ -2046,6 +2243,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - feeling today.",
+          translation: "I feel today.",
           level: 1,
           vocabularyIds: ["fühle"]
         },
@@ -2055,6 +2253,7 @@ export const exercises = {
           options: ["gesund", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'gesund' means healthy - very healthy.",
+          translation: "I am very healthy.",
           level: 1,
           vocabularyIds: ["gesund"]
         },
@@ -2064,6 +2263,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - feeling better.",
+          translation: "I feel better.",
           level: 1,
           vocabularyIds: ["fühle"]
         },
@@ -2073,6 +2273,7 @@ export const exercises = {
           options: ["gesund", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'gesund' means healthy - not healthy.",
+          translation: "I am not healthy.",
           level: 1,
           vocabularyIds: ["gesund"]
         },
@@ -2082,6 +2283,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - feeling bad.",
+          translation: "I feel bad.",
           level: 1,
           vocabularyIds: ["fühle", "schlecht"]
         },
@@ -2091,6 +2293,7 @@ export const exercises = {
           options: ["krank", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'krank' means sick - became sick.",
+          translation: "I became sick.",
           level: 1,
           vocabularyIds: ["krank"]
         },
@@ -2112,6 +2315,7 @@ export const exercises = {
           options: ["Arzt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arzt' means doctor - who you visit when sick.",
+          translation: "I have to go to the doctor.",
           level: 2,
           vocabularyIds: ["arzt"]
         },
@@ -2121,6 +2325,7 @@ export const exercises = {
           options: ["Medizin", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Medizin' means medicine - what you take when sick.",
+          translation: "I take medicine for the headache.",
           level: 2,
           vocabularyIds: ["medizin", "schmerz"]
         },
@@ -2130,6 +2335,7 @@ export const exercises = {
           options: ["Gesundheit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Gesundheit' means health - your physical well-being.",
+          translation: "Sports are good for your health.",
           level: 2,
           vocabularyIds: ["gesundheit", "gesund"]
         },
@@ -2139,6 +2345,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to doctor.",
+          translation: "I go to the doctor.",
           level: 2,
           vocabularyIds: ["gehen", "arzt"]
         },
@@ -2148,6 +2355,7 @@ export const exercises = {
           options: ["nehme", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'nehme' means I take - taking medicine.",
+          translation: "I take medicine.",
           level: 2,
           vocabularyIds: ["nehmen", "medizin"]
         },
@@ -2157,6 +2365,7 @@ export const exercises = {
           options: ["Schmerz", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schmerz' means pain - having pain.",
+          translation: "I have pain.",
           level: 2,
           vocabularyIds: ["schmerz"]
         },
@@ -2166,6 +2375,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to hospital.",
+          translation: "I go to the hospital.",
           level: 2,
           vocabularyIds: ["gehen", "krankenhaus"]
         },
@@ -2175,6 +2385,7 @@ export const exercises = {
           options: ["Gesundheit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Gesundheit' means health - good health.",
+          translation: "My health is good.",
           level: 2,
           vocabularyIds: ["gesundheit", "gut"]
         },
@@ -2184,6 +2395,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - visiting doctor.",
+          translation: "I visit the doctor.",
           level: 2,
           vocabularyIds: ["besuchen", "arzt"]
         },
@@ -2193,6 +2405,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being sick.",
+          translation: "I am sick.",
           level: 2,
           vocabularyIds: ["sein", "krank"]
         },
@@ -2202,6 +2415,7 @@ export const exercises = {
           options: ["bleibe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bleibe' means I stay - staying healthy.",
+          translation: "I stay healthy.",
           level: 2,
           vocabularyIds: ["bleiben", "gesund"]
         },
@@ -2211,6 +2425,7 @@ export const exercises = {
           options: ["mache", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'mache' means I do - doing sports for health.",
+          translation: "I do sports for my health.",
           level: 2,
           vocabularyIds: ["machen", "gesundheit"]
         },
@@ -2220,6 +2435,7 @@ export const exercises = {
           options: ["fühle", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'fühle' means I feel - feeling better.",
+          translation: "I feel better.",
           level: 2,
           vocabularyIds: ["fühle"]
         },
@@ -2254,6 +2470,7 @@ export const exercises = {
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schule' means school - where students learn.",
+          translation: "I go to school.",
           level: 1,
           vocabularyIds: ["schule"]
         },
@@ -2263,6 +2480,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn/study - what you do at school.",
+          translation: "I learn at school.",
           level: 1,
           vocabularyIds: ["lernen", "schule"]
         },
@@ -2272,6 +2490,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn/study - daily learning.",
+          translation: "I learn every day.",
           level: 1,
           vocabularyIds: ["lernen"]
         },
@@ -2281,6 +2500,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to school.",
+          translation: "I go to school.",
           level: 1,
           vocabularyIds: ["gehen", "schule"]
         },
@@ -2290,6 +2510,7 @@ export const exercises = {
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schule' means school - large school.",
+          translation: "The school is large.",
           level: 1,
           vocabularyIds: ["schule", "groß"]
         },
@@ -2299,6 +2520,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - enjoying learning.",
+          translation: "I like to learn.",
           level: 1,
           vocabularyIds: ["lernen"]
         },
@@ -2308,6 +2530,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being at school.",
+          translation: "I am at school.",
           level: 1,
           vocabularyIds: ["sein", "schule"]
         },
@@ -2317,6 +2540,7 @@ export const exercises = {
           options: ["komme", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'komme' means I come - coming from school.",
+          translation: "I come from school.",
           level: 1,
           vocabularyIds: ["kommen", "schule"]
         },
@@ -2326,6 +2550,7 @@ export const exercises = {
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schule' means school - good school.",
+          translation: "The school is good.",
           level: 1,
           vocabularyIds: ["schule", "gut"]
         },
@@ -2335,6 +2560,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - learning a lot.",
+          translation: "I learn a lot.",
           level: 1,
           vocabularyIds: ["lernen", "viel"]
         },
@@ -2344,6 +2570,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - learning today.",
+          translation: "I learn today.",
           level: 1,
           vocabularyIds: ["lernen"]
         },
@@ -2353,6 +2580,7 @@ export const exercises = {
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schule' means school - important school.",
+          translation: "The school is important.",
           level: 1,
           vocabularyIds: ["schule", "wichtig"]
         },
@@ -2362,6 +2590,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to school.",
+          translation: "I go to school.",
           level: 1,
           vocabularyIds: ["gehen", "schule"]
         },
@@ -2371,6 +2600,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - learning at school.",
+          translation: "I learn at school.",
           level: 1,
           vocabularyIds: ["lernen", "schule"]
         },
@@ -2392,6 +2622,7 @@ export const exercises = {
           options: ["Lehrer", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Lehrer' means teacher - who teaches at school.",
+          translation: "My teacher explains mathematics very well.",
           level: 2,
           vocabularyIds: ["lehrer"]
         },
@@ -2401,6 +2632,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn/study - what students do.",
+          translation: "I study every day for my exams.",
           level: 2,
           vocabularyIds: ["lernen"]
         },
@@ -2410,6 +2642,7 @@ export const exercises = {
           options: ["Stift", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stift' means pen/pencil - used for writing in school.",
+          translation: "I write with a pen.",
           level: 2,
           vocabularyIds: ["stift", "schreiben"]
         },
@@ -2419,6 +2652,7 @@ export const exercises = {
           options: ["lese", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lese' means I read - reading a book.",
+          translation: "I read a book.",
           level: 2,
           vocabularyIds: ["lesen", "buch"]
         },
@@ -2428,6 +2662,7 @@ export const exercises = {
           options: ["mache", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'mache' means I do - doing homework.",
+          translation: "I do homework.",
           level: 2,
           vocabularyIds: ["machen"]
         },
@@ -2437,6 +2672,7 @@ export const exercises = {
           options: ["Lehrer", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Lehrer' means teacher - nice teacher.",
+          translation: "My teacher is very nice.",
           level: 2,
           vocabularyIds: ["lehrer"]
         },
@@ -2446,6 +2682,7 @@ export const exercises = {
           options: ["spreche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spreche' means I speak - talking with teacher.",
+          translation: "I speak with my teacher.",
           level: 2,
           vocabularyIds: ["sprechen", "lehrer"]
         },
@@ -2455,6 +2692,7 @@ export const exercises = {
           options: ["schreibe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'schreibe' means I write - writing an exam.",
+          translation: "I write an exam.",
           level: 2,
           vocabularyIds: ["schreiben"]
         },
@@ -2464,6 +2702,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - studying in library.",
+          translation: "I study in the library.",
           level: 2,
           vocabularyIds: ["lernen"]
         },
@@ -2473,6 +2712,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to university.",
+          translation: "I go to the university.",
           level: 2,
           vocabularyIds: ["gehen", "universität"]
         },
@@ -2482,6 +2722,7 @@ export const exercises = {
           options: ["lerne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'lerne' means I learn - learning new things.",
+          translation: "I learn new things.",
           level: 2,
           vocabularyIds: ["lernen", "neu"]
         },
@@ -2491,6 +2732,7 @@ export const exercises = {
           options: ["Lehrer", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Lehrer' means teacher - helping teacher.",
+          translation: "My teacher helps me.",
           level: 2,
           vocabularyIds: ["lehrer", "helfen"]
         },
@@ -2500,6 +2742,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - enjoying going to school.",
+          translation: "I like to go to school.",
           level: 2,
           vocabularyIds: ["gehen", "schule"]
         },
@@ -2534,6 +2777,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - a large urban area.",
+          translation: "Berlin is a large city.",
           level: 1,
           vocabularyIds: ["stadt"]
         },
@@ -2543,6 +2787,7 @@ export const exercises = {
           options: ["Straße", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Straße' means street - where you live in a city.",
+          translation: "I live on a quiet street.",
           level: 1,
           vocabularyIds: ["straße"]
         },
@@ -2552,6 +2797,7 @@ export const exercises = {
           options: ["Platz", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Platz' means place/square - a public area in cities.",
+          translation: "The market square is a beautiful place.",
           level: 1,
           vocabularyIds: ["platz"]
         },
@@ -2561,6 +2807,7 @@ export const exercises = {
           options: ["Land", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Land' means country - asking where someone lives.",
+          translation: "In which country do you live?",
           level: 1,
           vocabularyIds: ["land"]
         },
@@ -2570,6 +2817,7 @@ export const exercises = {
           options: ["wohne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'wohne' means I live - living in a city.",
+          translation: "I live in a city.",
           level: 1,
           vocabularyIds: ["wohnen", "stadt"]
         },
@@ -2579,6 +2827,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - large city.",
+          translation: "The city is large.",
           level: 1,
           vocabularyIds: ["stadt", "groß"]
         },
@@ -2588,6 +2837,7 @@ export const exercises = {
           options: ["sehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'sehe' means I see - seeing a city.",
+          translation: "I see a city.",
           level: 1,
           vocabularyIds: ["sehen", "stadt"]
         },
@@ -2597,6 +2847,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - beautiful city.",
+          translation: "The city is beautiful.",
           level: 1,
           vocabularyIds: ["stadt", "schön"]
         },
@@ -2606,6 +2857,7 @@ export const exercises = {
           options: ["gehe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'gehe' means I go - going to the city.",
+          translation: "I go to the city.",
           level: 1,
           vocabularyIds: ["gehen", "stadt"]
         },
@@ -2615,6 +2867,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - good city.",
+          translation: "The city is good.",
           level: 1,
           vocabularyIds: ["stadt", "gut"]
         },
@@ -2624,6 +2877,7 @@ export const exercises = {
           options: ["komme", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'komme' means I come - coming from the city.",
+          translation: "I come from the city.",
           level: 1,
           vocabularyIds: ["kommen", "stadt"]
         },
@@ -2633,6 +2887,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - important city.",
+          translation: "The city is important.",
           level: 1,
           vocabularyIds: ["stadt", "wichtig"]
         },
@@ -2642,6 +2897,7 @@ export const exercises = {
           options: ["bin", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'bin' means I am - being in the city.",
+          translation: "I am in the city.",
           level: 1,
           vocabularyIds: ["sein", "stadt"]
         },
@@ -2651,6 +2907,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - new city.",
+          translation: "The city is new.",
           level: 1,
           vocabularyIds: ["stadt", "neu"]
         },
@@ -2672,6 +2929,7 @@ export const exercises = {
           options: ["liebe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'liebe' means I love - loving this city.",
+          translation: "I love this city very much.",
           level: 2,
           vocabularyIds: ["lieben", "stadt"]
         },
@@ -2681,6 +2939,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - city with many sights.",
+          translation: "The city has many sights.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -2690,6 +2949,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - visiting the city.",
+          translation: "I visit the city.",
           level: 2,
           vocabularyIds: ["besuchen", "stadt"]
         },
@@ -2699,6 +2959,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - very lively city.",
+          translation: "The city is very lively.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -2708,6 +2969,7 @@ export const exercises = {
           options: ["laufe", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'laufe' means I walk - walking through the city.",
+          translation: "I walk through the city.",
           level: 2,
           vocabularyIds: ["laufen", "stadt"]
         },
@@ -2717,6 +2979,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - historical city.",
+          translation: "The city is historical.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -2726,6 +2989,7 @@ export const exercises = {
           options: ["kenne", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'kenne' means I know - knowing the city well.",
+          translation: "I know the city well.",
           level: 2,
           vocabularyIds: ["wissen", "stadt"]
         },
@@ -2735,6 +2999,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - modern city.",
+          translation: "The city is modern.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -2744,6 +3009,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - working in the city.",
+          translation: "I work in the city.",
           level: 2,
           vocabularyIds: ["arbeiten", "stadt"]
         },
@@ -2753,6 +3019,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - city with many restaurants.",
+          translation: "The city has many restaurants.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -2762,6 +3029,7 @@ export const exercises = {
           options: ["besuche", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'besuche' means I visit - enjoying visiting the city.",
+          translation: "I like to visit the city.",
           level: 2,
           vocabularyIds: ["besuchen", "stadt"]
         },
@@ -2771,6 +3039,7 @@ export const exercises = {
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Stadt' means city - famous city.",
+          translation: "The city is famous.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -2780,6 +3049,7 @@ export const exercises = {
           options: ["mag", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'mag' means I like - liking the city.",
+          translation: "I like the city.",
           level: 2,
           vocabularyIds: ["mögen", "stadt"]
         },

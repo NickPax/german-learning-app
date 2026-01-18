@@ -14,10 +14,6 @@ const translationMap = {
 
 // Translation helper - generates English translation from German sentence
 export function generateTranslation(exercise) {
-    if (exercise.translation) {
-        return exercise.translation;
-    }
-    
     // Handle TTS exercises (they have audioText instead of sentence)
     if (exercise.type === 'tts' && exercise.audioText) {
         // For TTS exercises, just return the German text (no translation prefix)
@@ -25,7 +21,12 @@ export function generateTranslation(exercise) {
     }
     
     // Handle missing-word exercises
-    if (exercise.sentence) {
+    if (exercise.type === 'missing-word' && exercise.sentence) {
+        // First check if exercise has explicit translation
+        if (exercise.translation) {
+            return exercise.translation;
+        }
+        
         // Get full sentence with correct answer
         const correctAnswer = exercise.options ? exercise.options[exercise.correct] : '';
         const fullSentence = exercise.sentence.replace('___', correctAnswer);
@@ -35,8 +36,9 @@ export function generateTranslation(exercise) {
             return translationMap[fullSentence];
         }
         
-        // Fallback: just return the German sentence (no translation prefix)
-        return fullSentence;
+        // For missing-word exercises, we need an English translation
+        // Return a placeholder if no translation is available
+        return `[English: ${fullSentence}]`;
     }
     
     return '[Translation not available]';

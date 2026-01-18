@@ -1,3 +1,4 @@
+
 // Vocabulary database organized by level
 // Level 1: Foundation (Most Essential 300 Words)
 // Level 2: Elementary (+300 Common Words)  
