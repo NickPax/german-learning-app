@@ -43,7 +43,7 @@ export const exercises = {
           audioText: "Was möchtest du essen?",
           translation: "What would you like to eat?",
           topics: ["Making a request", "Asking for information", "Expressing preferences", "Talking about daily routines"],
-          correct: 0,
+          correct: 1,
           explanation: "The speaker is asking what someone would like to eat.",
           level: 1,
           vocabularyIds: ["essen"]
@@ -173,7 +173,7 @@ export const exercises = {
           audioText: "Kann ich bitte die Speisekarte haben?",
           translation: "Can I please have the menu?",
           topics: ["Making a polite request", "Asking for information", "Expressing a need", "Talking about services"],
-          correct: 0,
+          correct: 1,
           explanation: "The speaker is asking for the menu.",
           level: 1,
           vocabularyIds: ["essen"]
@@ -346,7 +346,7 @@ export const exercises = {
           audioText: "Können Sie mir bitte die Rechnung bringen?",
           translation: "Can you please bring me the bill?",
           topics: ["Making a polite request", "Asking for information", "Expressing a need", "Talking about services"],
-          correct: 0,
+          correct: 1,
           explanation: "The speaker is asking for the bill at a restaurant.",
           level: 2,
           vocabularyIds: ["essen"]
@@ -395,8 +395,8 @@ export const exercises = {
           type: "tts",
           audioText: "Das Essen war sehr lecker! Können wir bitte die Rechnung haben?",
           translation: "The food was very delicious! Can we please have the bill?",
-          topics: ["Complaining about food", "Praising food", "Asking for directions", "Ordering clothes"],
-          correct: 1,
+          topics: ["Giving a compliment", "Making a request", "Asking for information", "Expressing satisfaction"],
+          correct: 2,
           explanation: "The speaker is praising the food ('lecker' means delicious) and asking for the bill.",
           level: 2,
           vocabularyIds: ["essen", "gut"]
@@ -426,7 +426,7 @@ export const exercises = {
           audioText: "Könnten Sie mir bitte die Speisekarte zeigen?",
           translation: "Could you please show me the menu?",
           topics: ["Making a polite request", "Asking for information", "Expressing a need", "Talking about services"],
-          correct: 0,
+          correct: 1,
           explanation: "The speaker is politely asking to see the menu.",
           level: 2,
           vocabularyIds: ["essen"]
@@ -643,7 +643,7 @@ export const exercises = {
           audioText: "Ich reise gerne mit dem Zug.",
           translation: "I like to travel by train.",
           topics: ["Expressing preferences", "Describing experiences", "Making plans", "Describing daily routines"],
-          correct: 1,
+          correct: 0,
           explanation: "The speaker is expressing a preference for train travel.",
           level: 1,
           vocabularyIds: ["reisen", "zug"]
@@ -1513,7 +1513,7 @@ export const exercises = {
           audioText: "Kann ich das bitte kaufen?",
           translation: "Can I please buy that?",
           topics: ["Making a request", "Expressing preferences", "Asking for information", "Talking about needs"],
-          correct: 0,
+          correct: 2,
           explanation: "The speaker is asking to buy something.",
           level: 1,
           vocabularyIds: ["kaufen"]
