@@ -362,6 +362,13 @@ function handleTTSAnswer(selectedIndex, correctIndex, exercise) {
         audioTextDisplay.style.display = 'block';
     }
     
+    // Show translation after answer
+    const translationDisplay = document.getElementById('translation-display-tts');
+    if (translationDisplay) {
+        translationDisplay.textContent = generateTranslation(exercise);
+        translationDisplay.style.display = 'block';
+    }
+    
     // Enable the Next button - use ID for reliable selection
     const enableNextButton = () => {
         const nextBtn = document.getElementById('exercise-next-btn');

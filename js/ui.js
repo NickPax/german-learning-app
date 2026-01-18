@@ -18,18 +18,33 @@ export function generateTranslation(exercise) {
         return exercise.translation;
     }
     
-    // Get full sentence with correct answer
-    const correctAnswer = exercise.options[exercise.correct];
-    const fullSentence = exercise.sentence.replace('___', correctAnswer);
-    
-    // Look up in translation map
-    if (translationMap[fullSentence]) {
-        return translationMap[fullSentence];
+    // Handle TTS exercises (they have audioText instead of sentence)
+    if (exercise.type === 'tts' && exercise.audioText) {
+        // Look up in translation map
+        if (translationMap[exercise.audioText]) {
+            return translationMap[exercise.audioText];
+        }
+        // Fallback for TTS exercises
+        return `[Translation: ${exercise.audioText}]`;
     }
     
-    // Fallback: try to find partial match or return placeholder
-    // This allows for easy extension when translations are added to exercises
-    return `[Translation: ${fullSentence}]`;
+    // Handle missing-word exercises
+    if (exercise.sentence) {
+        // Get full sentence with correct answer
+        const correctAnswer = exercise.options ? exercise.options[exercise.correct] : '';
+        const fullSentence = exercise.sentence.replace('___', correctAnswer);
+        
+        // Look up in translation map
+        if (translationMap[fullSentence]) {
+            return translationMap[fullSentence];
+        }
+        
+        // Fallback: try to find partial match or return placeholder
+        // This allows for easy extension when translations are added to exercises
+        return `[Translation: ${fullSentence}]`;
+    }
+    
+    return '[Translation not available]';
 }
 
 // Helper functions
@@ -368,19 +383,34 @@ export function renderTTsExercise(exercise, currentExercise, userAnswers, onAnsw
     audioTextDisplay.className = 'audio-text-display';
     audioTextDisplay.style.display = 'none';
     audioTextDisplay.style.marginTop = '15px';
-    audioTextDisplay.style.marginBottom = '15px';
     audioTextDisplay.style.padding = '10px';
     audioTextDisplay.style.fontSize = '1rem';
     audioTextDisplay.style.color = 'var(--subheading)';
     audioTextDisplay.style.fontStyle = 'italic';
     audioTextDisplay.style.borderTop = '1px solid var(--border)';
-    audioTextDisplay.style.borderBottom = '1px solid var(--border)';
     audioTextDisplay.textContent = exercise.audioText;
     content.appendChild(audioTextDisplay);
     
-    // Show audio text if user has already answered
+    // Translation display (shown after answer)
+    const translationDisplay = document.createElement('div');
+    translationDisplay.id = 'translation-display-tts';
+    translationDisplay.className = 'translation-display';
+    translationDisplay.style.display = 'none';
+    translationDisplay.style.marginTop = '10px';
+    translationDisplay.style.marginBottom = '15px';
+    translationDisplay.style.padding = '8px 12px';
+    translationDisplay.style.fontSize = '0.9rem';
+    translationDisplay.style.color = 'var(--subheading)';
+    translationDisplay.style.fontStyle = 'italic';
+    translationDisplay.style.borderLeft = '3px solid var(--border)';
+    translationDisplay.style.backgroundColor = 'var(--option-bg)';
+    translationDisplay.textContent = generateTranslation(exercise);
+    content.appendChild(translationDisplay);
+    
+    // Show audio text and translation if user has already answered
     if (userAnswers[currentExercise] !== undefined && userAnswers[currentExercise] !== null) {
         audioTextDisplay.style.display = 'block';
+        translationDisplay.style.display = 'block';
     }
     
     const topicsContainer = document.createElement('div');

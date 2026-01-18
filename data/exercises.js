@@ -28,11 +28,11 @@ export const exercises = {
         {
           type: "missing-word",
           sentence: "Ich trinke gerne ___.", 
-          options: ["Kaffee", "Auto", "Haus", "Stuhl"],
+          options: ["Wasser", "Auto", "Haus", "Stuhl"],
           correct: 0,
-          explanation: "'Kaffee' means coffee - a popular beverage in Germany.",
-          level: 2,
-          vocabularyIds: ["kaffee"]
+          explanation: "'Wasser' means water - a common drink.",
+          level: 1,
+          vocabularyIds: ["wasser"]
         },
         {
           type: "missing-word",
@@ -46,6 +46,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Das Essen war sehr lecker! Können wir bitte die Rechnung haben?",
+          translation: "The food was very delicious! Can we please have the bill?",
           topics: ["Complaining about food", "Praising food", "Asking for directions", "Ordering clothes"],
           correct: 1,
           explanation: "The speaker is praising the food ('lecker' means delicious) and asking for the bill.",
@@ -75,6 +76,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich hätte gerne ein Stück Kuchen und eine Tasse Kaffee, bitte.",
+          translation: "I would like a piece of cake and a cup of coffee, please.",
           topics: ["Ordering food", "Asking for directions", "Complaining", "Shopping"],
           correct: 0,
           explanation: "The speaker is ordering a piece of cake and a cup of coffee.",
@@ -93,7 +95,7 @@ export const exercises = {
           options: ["Bahnhof", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Bahnhof' means train station - essential for travel.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["bahnhof"]
         },
         {
@@ -102,7 +104,7 @@ export const exercises = {
           options: ["Zug", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Zug' means train - a common mode of transportation.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["zug", "fahren"]
         },
         {
@@ -117,6 +119,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Entschuldigung, wie komme ich zum Hauptbahnhof?",
+          translation: "Excuse me, how do I get to the main train station?",
           topics: ["Asking for directions", "Ordering food", "Shopping", "Complaining"],
           correct: 0,
           explanation: "The speaker is asking for directions to the main train station.",
@@ -144,7 +147,7 @@ export const exercises = {
           options: ["Familie", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Familie' means family - the people you're related to.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["familie"]
         },
         {
@@ -168,6 +171,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Meine Mutter kocht heute Abend für die ganze Familie.",
+          translation: "My mother is cooking tonight for the whole family.",
           topics: ["Talking about family", "Ordering food", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is talking about their mother cooking for the family.",
@@ -195,7 +199,7 @@ export const exercises = {
           options: ["Laden", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Laden' means shop/store - where you go shopping.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["laden", "kaufen"]
         },
         {
@@ -219,6 +223,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Entschuldigung, wo kann ich diese Schuhe anprobieren?",
+          translation: "Excuse me, where can I try on these shoes?",
           topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
           correct: 0,
           explanation: "The speaker is asking where they can try on shoes while shopping.",
@@ -246,7 +251,7 @@ export const exercises = {
           options: ["spiele", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'spiele' means I play - used for sports and games.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["spielen"]
         },
         {
@@ -270,6 +275,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Mein Hobby ist Fotografie. Ich fotografiere gerne Landschaften.",
+          translation: "My hobby is photography. I like to photograph landscapes.",
           topics: ["Talking about hobbies", "Shopping", "Travel", "Work"],
           correct: 0,
           explanation: "The speaker is talking about their hobby of photography.",
@@ -297,7 +303,7 @@ export const exercises = {
           options: ["Hund", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Hund' means dog - a common pet.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["hund"]
         },
         {
@@ -321,6 +327,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Gestern war ich im Zoo und habe Elefanten, Löwen und Giraffen gesehen.",
+          translation: "Yesterday I was at the zoo and saw elephants, lions and giraffes.",
           topics: ["Talking about animals", "Travel", "Shopping", "Family"],
           correct: 0,
           explanation: "The speaker is talking about seeing animals at the zoo.",
@@ -348,7 +355,7 @@ export const exercises = {
           options: ["arbeite", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'arbeite' means I work - what you do at a job.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["arbeiten"]
         },
         {
@@ -372,6 +379,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich muss morgen früh ins Büro. Mein Chef hat ein wichtiges Meeting.",
+          translation: "I have to go to the office early tomorrow. My boss has an important meeting.",
           topics: ["Talking about work", "Family", "Travel", "Shopping"],
           correct: 0,
           explanation: "The speaker is talking about going to the office and a meeting with their boss.",
@@ -399,7 +407,7 @@ export const exercises = {
           options: ["krank", "groß", "klein", "neu"],
           correct: 0,
           explanation: "'krank' means sick/ill - when you don't feel well.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["krank"]
         },
         {
@@ -423,6 +431,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich habe starke Kopfschmerzen und muss ins Krankenhaus.",
+          translation: "I have a severe headache and need to go to the hospital.",
           topics: ["Talking about health", "Shopping", "Travel", "Work"],
           correct: 0,
           explanation: "The speaker is talking about having a headache and needing to go to the hospital.",
@@ -450,7 +459,7 @@ export const exercises = {
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Schule' means school - where students learn.",
-          level: 2,
+          level: 1,
           vocabularyIds: ["schule"]
         },
         {
@@ -474,6 +483,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich habe heute drei Stunden Unterricht und muss danach noch Hausaufgaben machen.",
+          translation: "I have three hours of class today and still have to do homework afterwards.",
           topics: ["Talking about school", "Work", "Family", "Hobbies"],
           correct: 0,
           explanation: "The speaker is talking about having classes and homework.",
@@ -525,6 +535,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich liebe diese Stadt! Es gibt so viele interessante Museen und Restaurants.",
+          translation: "I love this city! There are so many interesting museums and restaurants.",
           topics: ["Talking about cities", "Travel", "Shopping", "Hobbies"],
           correct: 0,
           explanation: "The speaker is expressing love for a city and mentioning museums and restaurants.",
