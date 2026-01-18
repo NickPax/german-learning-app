@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jetzt Deutsch - Learn German Language</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo-container">
+<h1><i class="fas fa-language"></i> Jetzt Deutsch</h1>
+<p class="subtitle">Learn German through interactive exercises. Perfect for beginners and intermediate learners!</p>
+</div>
+<div class="theme-toggle" id="theme-toggle">
+<i class="fas fa-moon"></i>
+</div>
+</header>
+
+<div class="level-selection" id="level-selection-screen">
+<h2>Select Your Vocabulary Level</h2>
+<p>Choose a level to focus on specific vocabulary sets:</p>
+<select class="level-selector" id="level-selector">
+<option value="1">Level 1: Foundation (Most Essential 300 Words)</option>
+<option value="2">Level 2: Elementary (+300 Common Words)</option>
+<option value="3">Level 3: Intermediate (+300 Useful Words)</option>
+<option value="4">Level 4: Advanced (+300 Practical Words)</option>
+</select>
+<div class="level-description" id="level-description">
+Builds core vocabulary for everyday conversations. Focus on high-frequency verbs, nouns, and essential phrases.
+</div>
+<button class="btn btn-next" id="proceed-to-topics-btn" style="margin-top: 25px; width: 200px;">
+Proceed to Topics <i class="fas fa-arrow-right"></i>
+</button>
+</div>
+
+<div class="progress-container hidden" id="progress-container">
+<div class="progress-header">
+<span>Progress</span>
+<span id="progress-text">0/5</span>
+</div>
+<div class="progress-bar">
+<div class="progress-fill" id="progress-fill"></div>
+</div>
+<div class="points-display">
+<i class="fas fa-star"></i>
+<span id="points">0</span> Points
+</div>
+</div>
+
+<div class="exercise-container hidden" id="exercise-container">
+<!-- Exercises will be loaded here -->
+</div>
+
+<div class="completion-screen hidden" id="completion-screen">
+<h2 id="completion-message">Great Job! 🌟</h2>
+<p>You've completed the topic!</p>
+<div class="final-score">Your Score: <span id="final-score">0</span>/50 points <span class="level-badge" id="completion-level-badge" style="display: none; margin-left: 10px;"></span></div>
+<div class="action-buttons">
+<button class="new-topic-btn" id="new-topic-btn">Choose Another Topic</button>
+<button class="restart-btn" id="restart-topic-btn">Retry This Topic</button>
+</div>
+</div>
+
+<div class="topic-selection-screen hidden" id="topic-selection-screen">
+<h2>Choose a Topic to Practice <span class="level-badge" id="current-level-badge">Level 1</span></h2>
+<p>Select any topic to practice German vocabulary from your chosen level!</p>
+<div class="topic-options" id="topic-options-container">
+<!-- Topics will be populated here -->
+</div>
+<div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px; flex-wrap: wrap;">
+<button class="back-btn" id="back-to-levels-btn">
+<i class="fas fa-arrow-left"></i> Change Vocabulary Level
+</button>
+<button class="reset-btn" id="reset-progress-btn" title="Clear all saved progress and scores">
+<i class="fas fa-trash-alt"></i> Reset Progress
+</button>
+</div>
+</div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
