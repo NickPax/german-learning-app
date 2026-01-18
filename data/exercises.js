@@ -39,6 +39,16 @@ export const exercises = {
           vocabularyIds: ["wasser"]
         },
         {
+          type: "tts",
+          audioText: "Was möchtest du essen?",
+          translation: "What would you like to eat?",
+          topics: ["Ordering food", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking what someone would like to eat.",
+          level: 1,
+          vocabularyIds: ["essen"]
+        },
+        {
           type: "missing-word",
           sentence: "Das Essen schmeckt sehr ___.", 
           options: ["gut", "schlecht", "groß", "klein"],
@@ -79,6 +89,16 @@ export const exercises = {
           vocabularyIds: ["essen"]
         },
         {
+          type: "tts",
+          audioText: "Ich habe Hunger. Lass uns etwas essen gehen.",
+          translation: "I am hungry. Let's go eat something.",
+          topics: ["Ordering food", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is saying they're hungry and suggesting to go eat.",
+          level: 1,
+          vocabularyIds: ["hunger", "essen"]
+        },
+        {
           type: "missing-word",
           sentence: "Ich habe ___.",
           options: ["Hunger", "Haus", "Auto", "Stuhl"],
@@ -107,6 +127,16 @@ export const exercises = {
           translation: "The food is good.",
           level: 1,
           vocabularyIds: ["gut", "essen"]
+        },
+        {
+          type: "tts",
+          audioText: "Das Essen schmeckt sehr gut!",
+          translation: "The food tastes very good!",
+          topics: ["Praising food", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is praising the food.",
+          level: 1,
+          vocabularyIds: ["essen", "gut"]
         },
         {
           type: "missing-word",
@@ -139,6 +169,16 @@ export const exercises = {
           vocabularyIds: ["essen"]
         },
         {
+          type: "tts",
+          audioText: "Kann ich bitte die Speisekarte haben?",
+          translation: "Can I please have the menu?",
+          topics: ["Ordering food", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking for the menu.",
+          level: 1,
+          vocabularyIds: ["essen"]
+        },
+        {
           type: "missing-word",
           sentence: "Das ___ ist lecker.",
           options: ["Essen", "Haus", "Auto", "Stuhl"],
@@ -151,11 +191,42 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich möchte bitte ein Brot und eine Flasche Wasser.",
+          translation: "I would like a bread and a bottle of water, please.",
           topics: ["Ordering food", "Asking for directions", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is ordering bread and water.",
           level: 1,
           vocabularyIds: ["brot", "wasser"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich trinke gerne Kaffee am Morgen.",
+          translation: "I like to drink coffee in the morning.",
+          topics: ["Ordering food", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about drinking coffee in the morning.",
+          level: 1,
+          vocabularyIds: ["trinken"]
+        },
+        {
+          type: "tts",
+          audioText: "Das Restaurant ist sehr gut.",
+          translation: "The restaurant is very good.",
+          topics: ["Praising food", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is praising the restaurant.",
+          level: 1,
+          vocabularyIds: ["essen", "gut"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich esse gerne Obst und Gemüse.",
+          translation: "I like to eat fruit and vegetables.",
+          topics: ["Ordering food", "Talking about health", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about eating healthy food.",
+          level: 1,
+          vocabularyIds: ["essen"]
         }
       ],
       [
@@ -191,6 +262,16 @@ export const exercises = {
           vocabularyIds: ["kaffee"]
         },
         {
+          type: "tts",
+          audioText: "Ich hätte gerne ein Stück Kuchen zum Nachtisch.",
+          translation: "I would like a piece of cake for dessert.",
+          topics: ["Ordering food", "Shopping", "Travel", "Talking about hobbies"],
+          correct: 0,
+          explanation: "The speaker is ordering cake for dessert.",
+          level: 2,
+          vocabularyIds: ["essen"]
+        },
+        {
           type: "missing-word",
           sentence: "Ich esse gerne ___.", 
           options: ["Obst", "Haus", "Auto", "Stuhl"],
@@ -221,6 +302,16 @@ export const exercises = {
           vocabularyIds: ["gemüse"]
         },
         {
+          type: "tts",
+          audioText: "Dieses Restaurant serviert sehr gutes italienisches Essen.",
+          translation: "This restaurant serves very good Italian food.",
+          topics: ["Praising food", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is praising the Italian food at the restaurant.",
+          level: 2,
+          vocabularyIds: ["essen", "gut"]
+        },
+        {
           type: "missing-word",
           sentence: "Ich trinke ein ___ Bier.",
           options: ["kaltes", "großes", "kleines", "neues"],
@@ -249,6 +340,16 @@ export const exercises = {
           translation: "I eat an apple.",
           level: 2,
           vocabularyIds: ["apfel"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir bitte die Rechnung bringen?",
+          translation: "Can you please bring me the bill?",
+          topics: ["Ordering food", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking for the bill at a restaurant.",
+          level: 2,
+          vocabularyIds: ["essen"]
         },
         {
           type: "missing-word",
@@ -293,6 +394,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Das Essen war sehr lecker! Können wir bitte die Rechnung haben?",
+          translation: "The food was very delicious! Can we please have the bill?",
           topics: ["Complaining about food", "Praising food", "Asking for directions", "Ordering clothes"],
           correct: 1,
           explanation: "The speaker is praising the food ('lecker' means delicious) and asking for the bill.",
@@ -302,11 +404,42 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich hätte gerne ein Stück Kuchen und eine Tasse Kaffee, bitte.",
+          translation: "I would like a piece of cake and a cup of coffee, please.",
           topics: ["Ordering food", "Asking for directions", "Complaining", "Shopping"],
           correct: 0,
           explanation: "The speaker is ordering a piece of cake and a cup of coffee.",
           level: 2,
           vocabularyIds: ["kaffee", "essen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich bevorzuge vegetarisches Essen.",
+          translation: "I prefer vegetarian food.",
+          topics: ["Ordering food", "Talking about health", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is expressing a preference for vegetarian food.",
+          level: 2,
+          vocabularyIds: ["essen"]
+        },
+        {
+          type: "tts",
+          audioText: "Könnten Sie mir bitte die Speisekarte zeigen?",
+          translation: "Could you please show me the menu?",
+          topics: ["Ordering food", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is politely asking to see the menu.",
+          level: 2,
+          vocabularyIds: ["essen"]
+        },
+        {
+          type: "tts",
+          audioText: "Das Frühstück war köstlich!",
+          translation: "The breakfast was delicious!",
+          topics: ["Praising food", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is praising the breakfast.",
+          level: 2,
+          vocabularyIds: ["essen"]
         }
       ]
     ]
@@ -376,6 +509,16 @@ export const exercises = {
           vocabularyIds: ["fahren", "bus"]
         },
         {
+          type: "tts",
+          audioText: "Wo ist der nächste Bahnhof?",
+          translation: "Where is the nearest train station?",
+          topics: ["Asking for directions", "Ordering food", "Shopping", "Travel"],
+          correct: 3,
+          explanation: "The speaker is asking for directions to the train station.",
+          level: 1,
+          vocabularyIds: ["bahnhof"]
+        },
+        {
           type: "missing-word",
           sentence: "Ich ___ zum Bahnhof.",
           options: ["gehe", "esse", "trinke", "schlafe"],
@@ -404,6 +547,16 @@ export const exercises = {
           translation: "I travel by train.",
           level: 1,
           vocabularyIds: ["fahren", "zug"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich fahre morgen nach München.",
+          translation: "I'm traveling to Munich tomorrow.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about traveling to Munich tomorrow.",
+          level: 1,
+          vocabularyIds: ["fahren"]
         },
         {
           type: "missing-word",
@@ -458,11 +611,62 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Wo ist der nächste Bahnhof?",
+          translation: "Where is the nearest train station?",
           topics: ["Asking for directions", "Ordering food", "Shopping", "Complaining"],
           correct: 0,
           explanation: "The speaker is asking where the nearest train station is.",
           level: 1,
           vocabularyIds: ["bahnhof"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich muss zum Flughafen. Wie komme ich dorthin?",
+          translation: "I need to go to the airport. How do I get there?",
+          topics: ["Asking for directions", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is asking for directions to the airport.",
+          level: 1,
+          vocabularyIds: ["flughafen"]
+        },
+        {
+          type: "tts",
+          audioText: "Der Zug fährt in fünf Minuten ab.",
+          translation: "The train departs in five minutes.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is informing about train departure time.",
+          level: 1,
+          vocabularyIds: ["zug", "fahren"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich reise gerne mit dem Zug.",
+          translation: "I like to travel by train.",
+          topics: ["Travel", "Talking about hobbies", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is expressing a preference for train travel.",
+          level: 1,
+          vocabularyIds: ["reisen", "zug"]
+        },
+        {
+          type: "tts",
+          audioText: "Wann kommt der nächste Bus?",
+          translation: "When does the next bus come?",
+          topics: ["Asking for directions", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is asking about bus schedule.",
+          level: 1,
+          vocabularyIds: ["bus", "kommen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich fahre mit dem Auto nach Hause.",
+          translation: "I'm driving home by car.",
+          topics: ["Travel", "Talking about family", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about driving home.",
+          level: 1,
+          vocabularyIds: ["fahren", "auto", "haus"]
         }
       ],
       [
@@ -496,6 +700,16 @@ export const exercises = {
           translation: "I fly by plane.",
           level: 2,
           vocabularyIds: ["fliegen", "flugzeug"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich fliege nächste Woche nach Paris.",
+          translation: "I'm flying to Paris next week.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about flying to Paris next week.",
+          level: 2,
+          vocabularyIds: ["fliegen"]
         },
         {
           type: "missing-word",
@@ -588,6 +802,16 @@ export const exercises = {
           vocabularyIds: ["reservieren", "hotel"]
         },
         {
+          type: "tts",
+          audioText: "Ich habe ein Hotelzimmer für drei Nächte reserviert.",
+          translation: "I have reserved a hotel room for three nights.",
+          topics: ["Travel", "Shopping", "Ordering food", "Asking for directions"],
+          correct: 0,
+          explanation: "The speaker is talking about a hotel reservation.",
+          level: 2,
+          vocabularyIds: ["hotel"]
+        },
+        {
           type: "missing-word",
           sentence: "Ich ___ eine Reise.",
           options: ["buche", "esse", "trinke", "schlafe"],
@@ -599,7 +823,48 @@ export const exercises = {
         },
         {
           type: "tts",
+          audioText: "Können Sie mir bitte den Weg zum Flughafen zeigen?",
+          translation: "Can you please show me the way to the airport?",
+          topics: ["Asking for directions", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is asking for directions to the airport.",
+          level: 2,
+          vocabularyIds: ["flughafen"]
+        },
+        {
+          type: "tts",
+          audioText: "Der Zug hat Verspätung. Wann kommt der nächste?",
+          translation: "The train is delayed. When does the next one come?",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is asking about train delays and the next train.",
+          level: 2,
+          vocabularyIds: ["zug"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich reise gerne in verschiedene Länder.",
+          translation: "I like to travel to different countries.",
+          topics: ["Travel", "Talking about hobbies", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is expressing enjoyment of traveling to different countries.",
+          level: 2,
+          vocabularyIds: ["reisen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wo kann ich eine Fahrkarte kaufen?",
+          translation: "Where can I buy a ticket?",
+          topics: ["Asking for directions", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is asking where to buy a ticket.",
+          level: 2,
+          vocabularyIds: ["kaufen", "karte"]
+        },
+        {
+          type: "tts",
           audioText: "Entschuldigung, wie komme ich zum Hauptbahnhof?",
+          translation: "Excuse me, how do I get to the main train station?",
           topics: ["Asking for directions", "Ordering food", "Shopping", "Complaining"],
           correct: 0,
           explanation: "The speaker is asking for directions to the main train station.",
@@ -609,6 +874,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich muss morgen früh zum Flughafen fahren.",
+          translation: "I need to drive to the airport early tomorrow.",
           topics: ["Talking about travel", "Ordering food", "Shopping", "Family"],
           correct: 0,
           explanation: "The speaker is saying they need to drive to the airport early tomorrow.",
@@ -653,6 +919,16 @@ export const exercises = {
           vocabularyIds: ["lieben", "familie"]
         },
         {
+          type: "tts",
+          audioText: "Ich liebe meine Familie sehr.",
+          translation: "I love my family very much.",
+          topics: ["Talking about family", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is expressing love for their family.",
+          level: 1,
+          vocabularyIds: ["lieben", "familie"]
+        },
+        {
           type: "missing-word",
           sentence: "Meine ___ ist groß.",
           options: ["Familie", "Haus", "Auto", "Stuhl"],
@@ -681,6 +957,16 @@ export const exercises = {
           translation: "I see my family every day.",
           level: 1,
           vocabularyIds: ["sehen", "familie"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Familie ist sehr wichtig für mich.",
+          translation: "My family is very important to me.",
+          topics: ["Talking about family", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is expressing the importance of family.",
+          level: 1,
+          vocabularyIds: ["familie", "wichtig"]
         },
         {
           type: "missing-word",
@@ -765,11 +1051,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich liebe meine Familie sehr.",
+          translation: "I love my family very much.",
           topics: ["Talking about family", "Ordering food", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is expressing love for their family.",
           level: 1,
           vocabularyIds: ["lieben", "familie"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich wohne mit meiner Familie zusammen.",
+          translation: "I live together with my family.",
+          topics: ["Talking about family", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about living with family.",
+          level: 1,
+          vocabularyIds: ["wohnen", "familie"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Familie ist sehr groß und nett.",
+          translation: "My family is very large and nice.",
+          topics: ["Talking about family", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is describing their family.",
+          level: 1,
+          vocabularyIds: ["familie"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich sehe meine Familie jeden Sonntag.",
+          translation: "I see my family every Sunday.",
+          topics: ["Talking about family", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about seeing family regularly.",
+          level: 1,
+          vocabularyIds: ["sehen", "familie"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe heute zu meiner Familie.",
+          translation: "I'm going to my family today.",
+          topics: ["Talking about family", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is going to visit family.",
+          level: 1,
+          vocabularyIds: ["gehen", "familie"]
         }
       ],
       [
@@ -813,6 +1140,16 @@ export const exercises = {
           translation: "My mother cooks very well.",
           level: 2,
           vocabularyIds: ["mutter", "kochen"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Mutter kocht heute Abend für die ganze Familie.",
+          translation: "My mother is cooking for the whole family tonight.",
+          topics: ["Talking about family", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their mother cooking for the family.",
+          level: 2,
+          vocabularyIds: ["mutter", "familie", "kochen"]
         },
         {
           type: "missing-word",
@@ -907,6 +1244,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Meine Mutter kocht heute Abend für die ganze Familie.",
+          translation: "My mother is cooking for the whole family tonight.",
           topics: ["Talking about family", "Ordering food", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is talking about their mother cooking for the family.",
@@ -916,11 +1254,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Mein Vater arbeitet von Montag bis Freitag im Büro.",
+          translation: "My father works Monday to Friday in the office.",
           topics: ["Talking about family", "Talking about work", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is talking about their father working Monday to Friday in the office.",
           level: 2,
           vocabularyIds: ["vater", "arbeiten"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe zwei Geschwister: einen Bruder und eine Schwester.",
+          translation: "I have two siblings: a brother and a sister.",
+          topics: ["Talking about family", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their siblings.",
+          level: 2,
+          vocabularyIds: ["bruder", "schwester"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Bruder ist mein bester Freund.",
+          translation: "My brother is my best friend.",
+          topics: ["Talking about family", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their close relationship with their brother.",
+          level: 2,
+          vocabularyIds: ["bruder", "freund"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich besuche meine Großeltern am Wochenende.",
+          translation: "I visit my grandparents on the weekend.",
+          topics: ["Talking about family", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about visiting grandparents.",
+          level: 2,
+          vocabularyIds: ["besuchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Tochter geht zur Schule.",
+          translation: "My daughter goes to school.",
+          topics: ["Talking about family", "Talking about school", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their daughter going to school.",
+          level: 2,
+          vocabularyIds: ["tochter", "schule"]
         }
       ]
     ]
@@ -958,6 +1337,16 @@ export const exercises = {
           translation: "I go to the store.",
           level: 1,
           vocabularyIds: ["gehen", "laden"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe heute einkaufen.",
+          translation: "I'm going shopping today.",
+          topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is saying they're going shopping today.",
+          level: 1,
+          vocabularyIds: ["gehen", "kaufen"]
         },
         {
           type: "missing-word",
@@ -1072,11 +1461,62 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich gehe heute einkaufen.",
+          translation: "I'm going shopping today.",
           topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
           correct: 0,
           explanation: "The speaker is saying they're going shopping today.",
           level: 1,
           vocabularyIds: ["gehen", "kaufen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wie viel kostet das?",
+          translation: "How much does that cost?",
+          topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking about the price of something.",
+          level: 1,
+          vocabularyIds: ["kosten"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich kaufe gerne neue Kleidung.",
+          translation: "I like to buy new clothes.",
+          topics: ["Shopping", "Talking about hobbies", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about shopping for clothes.",
+          level: 1,
+          vocabularyIds: ["kaufen"]
+        },
+        {
+          type: "tts",
+          audioText: "Der Laden ist sehr groß und hat viele Sachen.",
+          translation: "The store is very large and has many things.",
+          topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is describing a large store.",
+          level: 1,
+          vocabularyIds: ["laden", "groß"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich muss noch einkaufen gehen.",
+          translation: "I still need to go shopping.",
+          topics: ["Shopping", "Travel", "Ordering food", "Asking for directions"],
+          correct: 0,
+          explanation: "The speaker is saying they need to go shopping.",
+          level: 1,
+          vocabularyIds: ["gehen", "kaufen"]
+        },
+        {
+          type: "tts",
+          audioText: "Kann ich das bitte kaufen?",
+          translation: "Can I please buy that?",
+          topics: ["Shopping", "Ordering food", "Asking for directions", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking to buy something.",
+          level: 1,
+          vocabularyIds: ["kaufen"]
         }
       ],
       [
@@ -1110,6 +1550,16 @@ export const exercises = {
           translation: "I ask about the price.",
           level: 2,
           vocabularyIds: ["fragen", "preis"]
+        },
+        {
+          type: "tts",
+          audioText: "Wie viel kostet dieses Hemd?",
+          translation: "How much does this shirt cost?",
+          topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking how much this shirt costs.",
+          level: 2,
+          vocabularyIds: ["preis", "kosten"]
         },
         {
           type: "missing-word",
@@ -1214,6 +1664,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Entschuldigung, wo kann ich diese Schuhe anprobieren?",
+          translation: "Excuse me, where can I try on these shoes?",
           topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
           correct: 0,
           explanation: "The speaker is asking where they can try on shoes while shopping.",
@@ -1223,11 +1674,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Wie viel kostet dieses Hemd?",
+          translation: "How much does this shirt cost?",
           topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
           correct: 0,
           explanation: "The speaker is asking how much this shirt costs.",
           level: 2,
           vocabularyIds: ["preis", "kosten"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich bezahle mit Kreditkarte.",
+          translation: "I'm paying with credit card.",
+          topics: ["Shopping", "Ordering food", "Asking for directions", "Travel"],
+          correct: 0,
+          explanation: "The speaker is saying they're paying with a credit card.",
+          level: 2,
+          vocabularyIds: ["bezahlen", "karte"]
+        },
+        {
+          type: "tts",
+          audioText: "Der Preis ist zu hoch für mich.",
+          translation: "The price is too high for me.",
+          topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is saying the price is too expensive.",
+          level: 2,
+          vocabularyIds: ["preis"]
+        },
+        {
+          type: "tts",
+          audioText: "Haben Sie das in einer anderen Größe?",
+          translation: "Do you have that in a different size?",
+          topics: ["Shopping", "Asking for directions", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is asking about different sizes while shopping.",
+          level: 2,
+          vocabularyIds: ["kaufen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich suche nach einem Geschenk für meine Mutter.",
+          translation: "I'm looking for a gift for my mother.",
+          topics: ["Shopping", "Talking about family", "Ordering food", "Travel"],
+          correct: 0,
+          explanation: "The speaker is shopping for a gift for their mother.",
+          level: 2,
+          vocabularyIds: ["kaufen", "mutter"]
         }
       ]
     ]
@@ -1255,6 +1747,16 @@ export const exercises = {
           translation: "I like to listen to music.",
           level: 1,
           vocabularyIds: ["hören"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich spiele gerne Fußball in meiner Freizeit.",
+          translation: "I like to play soccer in my free time.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about playing soccer as a hobby.",
+          level: 1,
+          vocabularyIds: ["spielen"]
         },
         {
           type: "missing-word",
@@ -1379,11 +1881,62 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Mein Hobby ist Lesen. Ich lese gerne Bücher.",
+          translation: "My hobby is reading. I like to read books.",
           topics: ["Talking about hobbies", "Shopping", "Travel", "Work"],
           correct: 0,
           explanation: "The speaker is talking about their hobby of reading books.",
           level: 1,
           vocabularyIds: ["hobby", "lesen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich höre gerne Musik, wenn ich entspanne.",
+          translation: "I like to listen to music when I relax.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about listening to music as a hobby.",
+          level: 1,
+          vocabularyIds: ["hören"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich sehe gerne Filme am Wochenende.",
+          translation: "I like to watch movies on the weekend.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about watching movies as a hobby.",
+          level: 1,
+          vocabularyIds: ["sehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich mache gerne Sport, um fit zu bleiben.",
+          translation: "I like to do sports to stay fit.",
+          topics: ["Talking about hobbies", "Talking about health", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about doing sports as a hobby.",
+          level: 1,
+          vocabularyIds: ["machen", "sport"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Freizeit verbringe ich gerne mit Lesen.",
+          translation: "I like to spend my free time reading.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about spending free time reading.",
+          level: 1,
+          vocabularyIds: ["lesen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich spiele gerne Fußball mit meinen Freunden.",
+          translation: "I like to play soccer with my friends.",
+          topics: ["Talking about hobbies", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about playing soccer with friends.",
+          level: 1,
+          vocabularyIds: ["spielen"]
         }
       ],
       [
@@ -1425,6 +1978,16 @@ export const exercises = {
           correct: 0,
           explanation: "'spiele' means I play - playing guitar.",
           translation: "I like to play guitar.",
+          level: 2,
+          vocabularyIds: ["spielen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich spiele gerne Gitarre in meiner Freizeit.",
+          translation: "I like to play guitar in my free time.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about playing guitar as a hobby.",
           level: 2,
           vocabularyIds: ["spielen"]
         },
@@ -1521,6 +2084,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Mein Hobby ist Fotografie. Ich fotografiere gerne Landschaften.",
+          translation: "My hobby is photography. I like to photograph landscapes.",
           topics: ["Talking about hobbies", "Shopping", "Travel", "Work"],
           correct: 0,
           explanation: "The speaker is talking about their hobby of photography.",
@@ -1530,11 +2094,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Am Wochenende spiele ich gerne Fußball mit meinen Freunden.",
+          translation: "On weekends I like to play soccer with my friends.",
           topics: ["Talking about hobbies", "Talking about family", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is talking about playing football with friends on weekends.",
           level: 2,
           vocabularyIds: ["spielen", "wochenende"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe gerne wandern in den Bergen.",
+          translation: "I like to go hiking in the mountains.",
+          topics: ["Talking about hobbies", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about hiking as a hobby.",
+          level: 2,
+          vocabularyIds: ["gehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich trainiere regelmäßig im Fitnessstudio.",
+          translation: "I train regularly at the gym.",
+          topics: ["Talking about hobbies", "Talking about health", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about regular gym training.",
+          level: 2,
+          vocabularyIds: ["trainieren"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Hobbys sind Lesen und Musik hören.",
+          translation: "My hobbies are reading and listening to music.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their hobbies.",
+          level: 2,
+          vocabularyIds: ["hobby", "lesen", "hören"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich besuche gerne Konzerte und Theateraufführungen.",
+          translation: "I like to visit concerts and theater performances.",
+          topics: ["Talking about hobbies", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about visiting cultural events.",
+          level: 2,
+          vocabularyIds: ["besuchen"]
         }
       ]
     ]
@@ -1572,6 +2177,66 @@ export const exercises = {
           translation: "I love my dog very much.",
           level: 1,
           vocabularyIds: ["lieben", "hund"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Hund heißt Max und ist sehr freundlich.",
+          translation: "My dog is called Max and is very friendly.",
+          topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their dog.",
+          level: 1,
+          vocabularyIds: ["hund"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich liebe meinen Hund sehr. Er ist mein bester Freund.",
+          translation: "I love my dog very much. He is my best friend.",
+          topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is expressing love for their dog.",
+          level: 1,
+          vocabularyIds: ["lieben", "hund"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Hund läuft gerne im Park.",
+          translation: "My dog likes to run in the park.",
+          topics: ["Talking about animals", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their dog running in the park.",
+          level: 1,
+          vocabularyIds: ["hund", "laufen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich füttere meinen Hund jeden Tag.",
+          translation: "I feed my dog every day.",
+          topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about feeding their dog.",
+          level: 1,
+          vocabularyIds: ["füttern", "hund"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Hund ist sehr groß und braun.",
+          translation: "My dog is very large and brown.",
+          topics: ["Talking about animals", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is describing their dog.",
+          level: 1,
+          vocabularyIds: ["hund", "groß"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe einen Hund und eine Katze.",
+          translation: "I have a dog and a cat.",
+          topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their pets.",
+          level: 1,
+          vocabularyIds: ["hund"]
         },
         {
           type: "missing-word",
@@ -1686,6 +2351,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Mein Hund heißt Max und ist sehr freundlich.",
+          translation: "My dog is called Max and is very friendly.",
           topics: ["Talking about animals", "Travel", "Shopping", "Family"],
           correct: 0,
           explanation: "The speaker is talking about their friendly dog named Max.",
@@ -1714,6 +2380,16 @@ export const exercises = {
           translation: "At the zoo I see many animals.",
           level: 2,
           vocabularyIds: ["tier"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe gerne in den Zoo, um die Tiere zu sehen.",
+          translation: "I like to go to the zoo to see the animals.",
+          topics: ["Talking about animals", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about visiting the zoo.",
+          level: 2,
+          vocabularyIds: ["tier", "sehen"]
         },
         {
           type: "missing-word",
@@ -1827,7 +2503,58 @@ export const exercises = {
         },
         {
           type: "tts",
+          audioText: "Meine Katze schläft gerne auf dem Sofa.",
+          translation: "My cat likes to sleep on the sofa.",
+          topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their cat's sleeping habits.",
+          level: 2,
+          vocabularyIds: ["katze"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich beobachte gerne Vögel im Park.",
+          translation: "I like to observe birds in the park.",
+          topics: ["Talking about animals", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about bird watching.",
+          level: 2,
+          vocabularyIds: ["vogel", "beobachten"]
+        },
+        {
+          type: "tts",
+          audioText: "Der Zoo hat viele verschiedene Tiere aus aller Welt.",
+          translation: "The zoo has many different animals from all over the world.",
+          topics: ["Talking about animals", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about the variety of animals at the zoo.",
+          level: 2,
+          vocabularyIds: ["tier"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Hund ist sehr gut trainiert und folgt allen Befehlen.",
+          translation: "My dog is very well trained and follows all commands.",
+          topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their well-trained dog.",
+          level: 2,
+          vocabularyIds: ["hund"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich füttere die Vögel jeden Morgen im Garten.",
+          translation: "I feed the birds every morning in the garden.",
+          topics: ["Talking about animals", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about feeding birds.",
+          level: 2,
+          vocabularyIds: ["vogel", "füttern"]
+        },
+        {
+          type: "tts",
           audioText: "Gestern war ich im Zoo und habe Elefanten, Löwen und Giraffen gesehen.",
+          translation: "Yesterday I was at the zoo and saw elephants, lions, and giraffes.",
           topics: ["Talking about animals", "Travel", "Shopping", "Family"],
           correct: 0,
           explanation: "The speaker is talking about seeing animals at the zoo.",
@@ -1837,6 +2564,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Meine Katze schläft gerne auf dem Sofa.",
+          translation: "My cat likes to sleep on the sofa.",
           topics: ["Talking about animals", "Talking about family", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is talking about their cat liking to sleep on the sofa.",
@@ -1869,6 +2597,16 @@ export const exercises = {
           translation: "My work is important.",
           level: 1,
           vocabularyIds: ["arbeit", "wichtig"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich arbeite von Montag bis Freitag im Büro.",
+          translation: "I work Monday to Friday in the office.",
+          topics: ["Talking about work", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their work schedule.",
+          level: 1,
+          vocabularyIds: ["arbeiten"]
         },
         {
           type: "missing-word",
@@ -1993,9 +2731,60 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich arbeite von Montag bis Freitag im Büro.",
+          translation: "I work Monday to Friday in the office.",
           topics: ["Talking about work", "Family", "Travel", "Shopping"],
           correct: 0,
           explanation: "The speaker is talking about working Monday to Friday in the office.",
+          level: 1,
+          vocabularyIds: ["arbeiten"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Arbeit ist sehr interessant und macht mir Spaß.",
+          translation: "My work is very interesting and I enjoy it.",
+          topics: ["Talking about work", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about enjoying their work.",
+          level: 1,
+          vocabularyIds: ["arbeit"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe jeden Morgen zur Arbeit.",
+          translation: "I go to work every morning.",
+          topics: ["Talking about work", "Travel", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their daily commute to work.",
+          level: 1,
+          vocabularyIds: ["gehen", "arbeit"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich komme um fünf Uhr von der Arbeit nach Hause.",
+          translation: "I come home from work at five o'clock.",
+          topics: ["Talking about work", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their work schedule.",
+          level: 1,
+          vocabularyIds: ["kommen", "arbeit", "haus"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Arbeit beginnt um acht Uhr morgens.",
+          translation: "My work starts at eight o'clock in the morning.",
+          topics: ["Talking about work", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their work start time.",
+          level: 1,
+          vocabularyIds: ["arbeit"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich arbeite gerne mit meinen Kollegen zusammen.",
+          translation: "I like to work together with my colleagues.",
+          topics: ["Talking about work", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about working with colleagues.",
           level: 1,
           vocabularyIds: ["arbeiten"]
         }
@@ -2029,6 +2818,16 @@ export const exercises = {
           correct: 0,
           explanation: "'arbeite' means I work - working with colleagues.",
           translation: "I work with my colleagues.",
+          level: 2,
+          vocabularyIds: ["arbeiten"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich arbeite als Lehrerin an einer Grundschule.",
+          translation: "I work as a teacher at an elementary school.",
+          topics: ["Talking about work", "Talking about school", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their job as a teacher.",
           level: 2,
           vocabularyIds: ["arbeiten"]
         },
@@ -2135,6 +2934,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich muss morgen früh ins Büro. Mein Chef hat ein wichtiges Meeting.",
+          translation: "I have to go to the office early tomorrow. My boss has an important meeting.",
           topics: ["Talking about work", "Family", "Travel", "Shopping"],
           correct: 0,
           explanation: "The speaker is talking about going to the office and a meeting with their boss.",
@@ -2144,11 +2944,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich arbeite gerne mit meinen Kollegen zusammen.",
+          translation: "I like to work together with my colleagues.",
           topics: ["Talking about work", "Talking about family", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is saying they enjoy working with their colleagues.",
           level: 2,
           vocabularyIds: ["arbeiten"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Beruf ist sehr erfüllend und macht mir viel Freude.",
+          translation: "My profession is very fulfilling and brings me a lot of joy.",
+          topics: ["Talking about work", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their fulfilling career.",
+          level: 2,
+          vocabularyIds: ["arbeit"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe heute viele wichtige Aufgaben zu erledigen.",
+          translation: "I have many important tasks to complete today.",
+          topics: ["Talking about work", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about having many tasks at work.",
+          level: 2,
+          vocabularyIds: ["arbeit"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich mache um zwölf Uhr Mittagspause.",
+          translation: "I take a lunch break at twelve o'clock.",
+          topics: ["Talking about work", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their lunch break schedule.",
+          level: 2,
+          vocabularyIds: ["machen"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Arbeitsplatz ist sehr modern und gut ausgestattet.",
+          translation: "My workplace is very modern and well-equipped.",
+          topics: ["Talking about work", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is describing their workplace.",
+          level: 2,
+          vocabularyIds: ["arbeit"]
         }
       ]
     ]
@@ -2186,6 +3027,16 @@ export const exercises = {
           translation: "I feel good.",
           level: 1,
           vocabularyIds: ["fühle"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich fühle mich heute nicht gut. Ich sollte zum Arzt gehen.",
+          translation: "I don't feel well today. I should go to the doctor.",
+          topics: ["Talking about health", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about feeling unwell and needing to see a doctor.",
+          level: 1,
+          vocabularyIds: ["fühle", "krank"]
         },
         {
           type: "missing-word",
@@ -2300,11 +3151,62 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich fühle mich nicht gut. Ich bin krank.",
+          translation: "I don't feel well. I am sick.",
           topics: ["Talking about health", "Shopping", "Travel", "Work"],
           correct: 0,
           explanation: "The speaker is saying they don't feel well and are sick.",
           level: 1,
           vocabularyIds: ["fühle", "krank"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich bin gesund und fühle mich sehr gut.",
+          translation: "I am healthy and feel very good.",
+          topics: ["Talking about health", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about being healthy.",
+          level: 1,
+          vocabularyIds: ["gesund", "fühle"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich sollte mehr Sport treiben, um gesund zu bleiben.",
+          translation: "I should do more sports to stay healthy.",
+          topics: ["Talking about health", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about staying healthy through exercise.",
+          level: 1,
+          vocabularyIds: ["gesund"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe zum Arzt, weil ich mich krank fühle.",
+          translation: "I'm going to the doctor because I feel sick.",
+          topics: ["Talking about health", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about going to the doctor.",
+          level: 1,
+          vocabularyIds: ["krank", "fühle"]
+        },
+        {
+          type: "tts",
+          audioText: "Gesundes Essen ist wichtig für meinen Körper.",
+          translation: "Healthy food is important for my body.",
+          topics: ["Talking about health", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about the importance of healthy eating.",
+          level: 1,
+          vocabularyIds: ["gesund", "essen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich schlafe genug, um gesund zu bleiben.",
+          translation: "I sleep enough to stay healthy.",
+          topics: ["Talking about health", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about getting enough sleep for health.",
+          level: 1,
+          vocabularyIds: ["gesund", "schlafen"]
         }
       ],
       [
@@ -2338,6 +3240,16 @@ export const exercises = {
           translation: "Sports are good for your health.",
           level: 2,
           vocabularyIds: ["gesundheit", "gesund"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe regelmäßig zum Arzt für Vorsorgeuntersuchungen.",
+          translation: "I go to the doctor regularly for preventive check-ups.",
+          topics: ["Talking about health", "Asking for directions", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about regular doctor visits.",
+          level: 2,
+          vocabularyIds: ["arzt", "gehen"]
         },
         {
           type: "missing-word",
@@ -2442,6 +3354,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich habe starke Kopfschmerzen und muss ins Krankenhaus.",
+          translation: "I have a severe headache and need to go to the hospital.",
           topics: ["Talking about health", "Shopping", "Travel", "Work"],
           correct: 0,
           explanation: "The speaker is talking about having a headache and needing to go to the hospital.",
@@ -2451,11 +3364,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich fühle mich heute viel besser. Die Medizin hat geholfen.",
+          translation: "I feel much better today. The medicine helped.",
           topics: ["Talking about health", "Talking about family", "Shopping", "Travel"],
           correct: 0,
           explanation: "The speaker is saying they feel much better today and the medicine helped.",
           level: 2,
           vocabularyIds: ["fühle", "medizin"]
+        },
+        {
+          type: "tts",
+          audioText: "Regelmäßiger Sport ist wichtig für eine gute Gesundheit.",
+          translation: "Regular exercise is important for good health.",
+          topics: ["Talking about health", "Talking about hobbies", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about the importance of regular exercise.",
+          level: 2,
+          vocabularyIds: ["gesundheit", "sport"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich nehme täglich Vitamine, um gesund zu bleiben.",
+          translation: "I take vitamins daily to stay healthy.",
+          topics: ["Talking about health", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about taking vitamins for health.",
+          level: 2,
+          vocabularyIds: ["gesund", "medizin"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Arzt hat mir geraten, mehr Wasser zu trinken.",
+          translation: "My doctor advised me to drink more water.",
+          topics: ["Talking about health", "Ordering food", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about doctor's advice.",
+          level: 2,
+          vocabularyIds: ["arzt"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich achte darauf, genug Schlaf zu bekommen.",
+          translation: "I make sure to get enough sleep.",
+          topics: ["Talking about health", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about getting enough sleep for health.",
+          level: 2,
+          vocabularyIds: ["schlafen", "gesund"]
         }
       ]
     ]
@@ -2483,6 +3437,16 @@ export const exercises = {
           translation: "I learn at school.",
           level: 1,
           vocabularyIds: ["lernen", "schule"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe jeden Tag zur Schule und lerne viele neue Dinge.",
+          translation: "I go to school every day and learn many new things.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about going to school and learning.",
+          level: 1,
+          vocabularyIds: ["gehen", "schule", "lernen"]
         },
         {
           type: "missing-word",
@@ -2607,11 +3571,62 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich gehe jeden Tag zur Schule und lerne viel.",
+          translation: "I go to school every day and learn a lot.",
           topics: ["Talking about school", "Work", "Family", "Hobbies"],
           correct: 0,
           explanation: "The speaker is saying they go to school every day and learn a lot.",
           level: 1,
           vocabularyIds: ["gehen", "schule", "lernen"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Schule ist sehr groß und hat viele Schüler.",
+          translation: "My school is very large and has many students.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is describing their school.",
+          level: 1,
+          vocabularyIds: ["schule", "groß"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich lerne gerne neue Sprachen in der Schule.",
+          translation: "I like to learn new languages at school.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about learning languages at school.",
+          level: 1,
+          vocabularyIds: ["lernen", "schule"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich komme um drei Uhr von der Schule nach Hause.",
+          translation: "I come home from school at three o'clock.",
+          topics: ["Talking about school", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their school schedule.",
+          level: 1,
+          vocabularyIds: ["kommen", "schule", "haus"]
+        },
+        {
+          type: "tts",
+          audioText: "Die Schule beginnt um acht Uhr morgens.",
+          translation: "School starts at eight o'clock in the morning.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about school start time.",
+          level: 1,
+          vocabularyIds: ["schule"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe viele Freunde in der Schule.",
+          translation: "I have many friends at school.",
+          topics: ["Talking about school", "Talking about family", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about friends at school.",
+          level: 1,
+          vocabularyIds: ["schule"]
         }
       ],
       [
@@ -2635,6 +3650,16 @@ export const exercises = {
           translation: "I study every day for my exams.",
           level: 2,
           vocabularyIds: ["lernen"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Lehrer erklärt den Unterricht sehr gut und hilft mir beim Lernen.",
+          translation: "My teacher explains the lesson very well and helps me with learning.",
+          topics: ["Talking about school", "Talking about work", "Shopping", "Travel"],
+          correct: 0,
+          explanation: "The speaker is talking about their helpful teacher.",
+          level: 2,
+          vocabularyIds: ["lehrer", "lernen"]
         },
         {
           type: "missing-word",
@@ -2749,6 +3774,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich habe heute drei Stunden Unterricht und muss danach noch Hausaufgaben machen.",
+          translation: "I have three hours of classes today and then I still need to do homework.",
           topics: ["Talking about school", "Work", "Family", "Hobbies"],
           correct: 0,
           explanation: "The speaker is talking about having classes and homework.",
@@ -2758,11 +3784,52 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Mein Lehrer erklärt die Mathematik sehr gut. Ich verstehe alles.",
+          translation: "My teacher explains mathematics very well. I understand everything.",
           topics: ["Talking about school", "Talking about work", "Family", "Hobbies"],
           correct: 0,
           explanation: "The speaker is saying their teacher explains math very well and they understand everything.",
           level: 2,
           vocabularyIds: ["lehrer", "verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich studiere an der Universität und lerne viele interessante Fächer.",
+          translation: "I study at the university and learn many interesting subjects.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about studying at university.",
+          level: 2,
+          vocabularyIds: ["universität", "lernen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verbringe viel Zeit in der Bibliothek, um für meine Prüfungen zu lernen.",
+          translation: "I spend a lot of time in the library to study for my exams.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about studying in the library.",
+          level: 2,
+          vocabularyIds: ["lernen"]
+        },
+        {
+          type: "tts",
+          audioText: "Meine Hausaufgaben sind sehr wichtig für meine Noten.",
+          translation: "My homework is very important for my grades.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about the importance of homework.",
+          level: 2,
+          vocabularyIds: ["schule"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich schreibe nächste Woche eine wichtige Prüfung in Deutsch.",
+          translation: "I'm writing an important exam in German next week.",
+          topics: ["Talking about school", "Shopping", "Travel", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about an upcoming exam.",
+          level: 2,
+          vocabularyIds: ["schreiben"]
         }
       ]
     ]
@@ -2800,6 +3867,16 @@ export const exercises = {
           translation: "The market square is a beautiful place.",
           level: 1,
           vocabularyIds: ["platz"]
+        },
+        {
+          type: "tts",
+          audioText: "Berlin ist eine sehr große und interessante Stadt.",
+          translation: "Berlin is a very large and interesting city.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about Berlin as a city.",
+          level: 1,
+          vocabularyIds: ["stadt"]
         },
         {
           type: "missing-word",
@@ -2914,11 +3991,62 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich wohne in einer großen Stadt.",
+          translation: "I live in a large city.",
           topics: ["Talking about cities", "Travel", "Shopping", "Hobbies"],
           correct: 0,
           explanation: "The speaker is saying they live in a large city.",
           level: 1,
           vocabularyIds: ["wohnen", "stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "München ist eine sehr schöne Stadt in Bayern.",
+          translation: "Munich is a very beautiful city in Bavaria.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about Munich as a beautiful city.",
+          level: 1,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich gehe gerne in die Stadt, um einzukaufen.",
+          translation: "I like to go to the city to go shopping.",
+          topics: ["Travel", "Shopping", "Asking for directions", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about going to the city for shopping.",
+          level: 1,
+          vocabularyIds: ["gehen", "stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Die Stadt hat viele interessante Sehenswürdigkeiten.",
+          translation: "The city has many interesting sights.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about city attractions.",
+          level: 1,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich komme aus einer kleinen Stadt im Norden.",
+          translation: "I come from a small city in the north.",
+          topics: ["Travel", "Talking about family", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about their hometown.",
+          level: 1,
+          vocabularyIds: ["kommen", "stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Die Straßen in der Stadt sind sehr belebt.",
+          translation: "The streets in the city are very busy.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about busy city streets.",
+          level: 1,
+          vocabularyIds: ["straße", "stadt"]
         }
       ],
       [
@@ -2940,6 +4068,16 @@ export const exercises = {
           correct: 0,
           explanation: "'Stadt' means city - city with many sights.",
           translation: "The city has many sights.",
+          level: 2,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Hamburg ist eine wunderschöne Hafenstadt im Norden Deutschlands.",
+          translation: "Hamburg is a beautiful port city in the north of Germany.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about Hamburg as a port city.",
           level: 2,
           vocabularyIds: ["stadt"]
         },
@@ -3056,6 +4194,7 @@ export const exercises = {
         {
           type: "tts",
           audioText: "Ich liebe diese Stadt! Es gibt so viele interessante Museen und Restaurants.",
+          translation: "I love this city! There are so many interesting museums and restaurants.",
           topics: ["Talking about cities", "Travel", "Shopping", "Hobbies"],
           correct: 0,
           explanation: "The speaker is expressing love for a city and mentioning museums and restaurants.",
@@ -3064,7 +4203,58 @@ export const exercises = {
         },
         {
           type: "tts",
+          audioText: "Köln ist bekannt für seinen Dom und die Karnevalsfeiern.",
+          translation: "Cologne is known for its cathedral and carnival celebrations.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about Cologne's famous landmarks.",
+          level: 2,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erkunde gerne neue Städte und entdecke ihre Kultur.",
+          translation: "I like to explore new cities and discover their culture.",
+          topics: ["Travel", "Talking about hobbies", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about exploring cities.",
+          level: 2,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Die Altstadt ist der schönste Teil der Stadt mit vielen historischen Gebäuden.",
+          translation: "The old town is the most beautiful part of the city with many historical buildings.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about the old town area.",
+          level: 2,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich plane eine Reise nach Frankfurt, um die Stadt zu besichtigen.",
+          translation: "I'm planning a trip to Frankfurt to visit the city.",
+          topics: ["Travel", "Asking for directions", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about planning a city visit.",
+          level: 2,
+          vocabularyIds: ["stadt", "reisen"]
+        },
+        {
+          type: "tts",
+          audioText: "Die Stadt bietet viele kulturelle Veranstaltungen und Festivals.",
+          translation: "The city offers many cultural events and festivals.",
+          topics: ["Travel", "Talking about hobbies", "Shopping", "Ordering food"],
+          correct: 0,
+          explanation: "The speaker is talking about city cultural offerings.",
+          level: 2,
+          vocabularyIds: ["stadt"]
+        },
+        {
+          type: "tts",
           audioText: "Diese Stadt ist sehr schön. Ich möchte hier bleiben.",
+          translation: "This city is very beautiful. I want to stay here.",
           topics: ["Talking about cities", "Talking about travel", "Shopping", "Hobbies"],
           correct: 0,
           explanation: "The speaker is saying the city is very beautiful and they want to stay here.",
