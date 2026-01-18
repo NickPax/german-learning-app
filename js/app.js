@@ -117,35 +117,23 @@ function startTopicExercises(topicKey) {
     points = 0;
     userAnswers = [];
     
-    currentSetIndex = selectRandomSet(topicKey);
-    
-    // Get exercises from selected set and filter by level
+    // Get exercises from all sets and filter by level
     const topicExercises = exercises[topicKey];
     if (!topicExercises || !topicExercises.sets) return;
     
     const allSets = topicExercises.sets;
-    const selectedSet = allSets[currentSetIndex] || allSets[0];
     
-    // Filter exercises by level
-    currentExercises = filterExercisesByLevel(selectedSet);
+    // Collect all exercises from all sets at the selected level
+    const allExercisesAtLevel = [];
+    allSets.forEach((set) => {
+        const filtered = filterExercisesByLevel(set);
+        allExercisesAtLevel.push(...filtered);
+    });
     
-    // If we don't have 5 exercises, try to get more from other sets
-    if (currentExercises.length < 5) {
-        const additionalExercises = [];
-        allSets.forEach((set, index) => {
-            if (index !== currentSetIndex) {
-                const filtered = filterExercisesByLevel(set);
-                filtered.forEach(exercise => {
-                    if (additionalExercises.length < (5 - currentExercises.length)) {
-                        additionalExercises.push(exercise);
-                    }
-                });
-            }
-        });
-        currentExercises.push(...additionalExercises);
-    }
+    // Shuffle all exercises to ensure variety
+    currentExercises = shuffleArray(allExercisesAtLevel);
     
-    // Limit to maximum 5 exercises
+    // Limit to maximum 5 exercises (randomly selected after shuffle)
     currentExercises = currentExercises.slice(0, 5);
     
     // Reset user answers for the new set
