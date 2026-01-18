@@ -109,6 +109,24 @@ export const exercises = {
         },
         {
           type: "missing-word",
+          sentence: "Ich ___ mit dem Auto.",
+          options: ["fahre", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'fahre' means I drive/travel - used with vehicles.",
+          level: 1,
+          vocabularyIds: ["fahren", "auto"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wo ___ ich hin?",
+          options: ["gehe", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'gehe' means I go - asking where to go.",
+          level: 1,
+          vocabularyIds: ["gehen"]
+        },
+        {
+          type: "missing-word",
           sentence: "Mein Flugzeug landet am ___.", 
           options: ["Flughafen", "Haus", "Auto", "Stuhl"],
           correct: 0,
@@ -149,6 +167,15 @@ export const exercises = {
           explanation: "'Familie' means family - the people you're related to.",
           level: 1,
           vocabularyIds: ["familie"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ meine Familie.",
+          options: ["liebe", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'liebe' means I love - expressing affection for family.",
+          level: 1,
+          vocabularyIds: ["lieben", "familie"]
         },
         {
           type: "missing-word",
@@ -204,6 +231,15 @@ export const exercises = {
         },
         {
           type: "missing-word",
+          sentence: "Ich ___ ein Buch.",
+          options: ["kaufe", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'kaufe' means I buy - the action of shopping.",
+          level: 1,
+          vocabularyIds: ["kaufen"]
+        },
+        {
+          type: "missing-word",
           sentence: "Wie viel kostet das? Was ist der ___?",
           options: ["Preis", "Haus", "Auto", "Stuhl"],
           correct: 0,
@@ -256,21 +292,30 @@ export const exercises = {
         },
         {
           type: "missing-word",
-          sentence: "Am Wochenende lese ich ein gutes ___.",
-          options: ["Buch", "Haus", "Auto", "Stuhl"],
-          correct: 0,
-          explanation: "'Buch' means book - something you read as a hobby.",
-          level: 2,
-          vocabularyIds: ["buch", "lesen"]
-        },
-        {
-          type: "missing-word",
           sentence: "Ich ___ gerne Musik.",
           options: ["höre", "esse", "trinke", "schlafe"],
           correct: 0,
           explanation: "'höre' means I listen - used for music.",
           level: 1,
           vocabularyIds: ["hören"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ gerne.",
+          options: ["lese", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'lese' means I read - a common hobby.",
+          level: 1,
+          vocabularyIds: ["lesen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Am Wochenende lese ich ein gutes ___.",
+          options: ["Buch", "Haus", "Auto", "Stuhl"],
+          correct: 0,
+          explanation: "'Buch' means book - something you read as a hobby.",
+          level: 2,
+          vocabularyIds: ["buch", "lesen"]
         },
         {
           type: "tts",
@@ -305,6 +350,15 @@ export const exercises = {
           explanation: "'Hund' means dog - a common pet.",
           level: 1,
           vocabularyIds: ["hund"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ meinen Hund.",
+          options: ["sehe", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'sehe' means I see - observing your pet.",
+          level: 1,
+          vocabularyIds: ["sehen", "hund"]
         },
         {
           type: "missing-word",
@@ -360,12 +414,21 @@ export const exercises = {
         },
         {
           type: "missing-word",
-          sentence: "Meine ___ ist sehr interessant.",
+          sentence: "Meine ___ ist wichtig.",
           options: ["Arbeit", "Haus", "Auto", "Stuhl"],
           correct: 0,
           explanation: "'Arbeit' means work/job - your occupation.",
-          level: 2,
-          vocabularyIds: ["arbeit"]
+          level: 1,
+          vocabularyIds: ["arbeit", "wichtig"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ jeden Tag.",
+          options: ["arbeite", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'arbeite' means I work - daily work routine.",
+          level: 1,
+          vocabularyIds: ["arbeiten"]
         },
         {
           type: "missing-word",
@@ -409,6 +472,24 @@ export const exercises = {
           explanation: "'krank' means sick/ill - when you don't feel well.",
           level: 1,
           vocabularyIds: ["krank"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich bin ___.",
+          options: ["gesund", "groß", "klein", "neu"],
+          correct: 0,
+          explanation: "'gesund' means healthy - feeling well.",
+          level: 1,
+          vocabularyIds: ["gesund"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ gut.",
+          options: ["fühle", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'fühle' means I feel - describing how you feel.",
+          level: 1,
+          vocabularyIds: ["fühle"]
         },
         {
           type: "missing-word",
@@ -461,6 +542,24 @@ export const exercises = {
           explanation: "'Schule' means school - where students learn.",
           level: 1,
           vocabularyIds: ["schule"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ in der Schule.",
+          options: ["lerne", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'lerne' means I learn/study - what you do at school.",
+          level: 1,
+          vocabularyIds: ["lernen", "schule"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich ___ jeden Tag.",
+          options: ["lerne", "esse", "trinke", "schlafe"],
+          correct: 0,
+          explanation: "'lerne' means I learn/study - daily learning.",
+          level: 1,
+          vocabularyIds: ["lernen"]
         },
         {
           type: "missing-word",
