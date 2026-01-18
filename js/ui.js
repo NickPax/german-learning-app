@@ -20,12 +20,8 @@ export function generateTranslation(exercise) {
     
     // Handle TTS exercises (they have audioText instead of sentence)
     if (exercise.type === 'tts' && exercise.audioText) {
-        // Look up in translation map
-        if (translationMap[exercise.audioText]) {
-            return translationMap[exercise.audioText];
-        }
-        // Fallback for TTS exercises
-        return `[Translation: ${exercise.audioText}]`;
+        // For TTS exercises, just return the German text (no translation prefix)
+        return exercise.audioText;
     }
     
     // Handle missing-word exercises
@@ -39,9 +35,8 @@ export function generateTranslation(exercise) {
             return translationMap[fullSentence];
         }
         
-        // Fallback: try to find partial match or return placeholder
-        // This allows for easy extension when translations are added to exercises
-        return `[Translation: ${fullSentence}]`;
+        // Fallback: just return the German sentence (no translation prefix)
+        return fullSentence;
     }
     
     return '[Translation not available]';
