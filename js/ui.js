@@ -16,7 +16,11 @@ const translationMap = {
 export function generateTranslation(exercise) {
     // Handle TTS exercises (they have audioText instead of sentence)
     if (exercise.type === 'tts' && exercise.audioText) {
-        // For TTS exercises, just return the German text (no translation prefix)
+        // First check if exercise has explicit translation
+        if (exercise.translation) {
+            return exercise.translation;
+        }
+        // Fallback to German text if no translation available
         return exercise.audioText;
     }
     
