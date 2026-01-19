@@ -223,11 +223,6 @@ function loadExercise() {
         exerciseContainer.appendChild(content);
     }
     
-    // Scroll to top when loading the first exercise (when starting/restarting a topic)
-    if (currentExercise === 0) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-    
     const nav = addNavigation(
         currentExercise, 
         currentExercises.length, 
@@ -262,6 +257,21 @@ function loadExercise() {
         }
     );
     exerciseContainer.appendChild(nav);
+    
+    // Scroll to show the exercise content and navigation buttons when loading the first exercise
+    // Use setTimeout to ensure DOM is fully rendered before scrolling
+    if (currentExercise === 0) {
+        setTimeout(() => {
+            // Scroll to the navigation buttons at the bottom to ensure they're visible
+            const navElement = exerciseContainer.querySelector('.exercise-navigation');
+            if (navElement) {
+                navElement.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            } else if (exerciseContainer) {
+                // Fallback: scroll to exercise container
+                exerciseContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 100);
+    }
 }
 
 // Handle missing word answer
