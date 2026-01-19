@@ -223,6 +223,11 @@ function loadExercise() {
         exerciseContainer.appendChild(content);
     }
     
+    // Scroll to top when loading the first exercise (when starting/restarting a topic)
+    if (currentExercise === 0) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    
     const nav = addNavigation(
         currentExercise, 
         currentExercises.length, 
