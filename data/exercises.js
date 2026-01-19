@@ -1054,6 +1054,169 @@ export const exercises = {
           level: 2,
           vocabularyIds: ["flughafen", "fahren"]
         }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir bitte ___?",
+          options: ["erklären", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - asking for directions explanation.",
+          translation: "Can you please explain to me?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, mein Ticket zu ___.",
+          options: ["buchen", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'buchen' means to book - I forgot to book my ticket.",
+          translation: "I forgot to book my ticket.",
+          level: 3,
+          vocabularyIds: ["vergessen", "buchen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welches Hotel wir wählen.",
+          options: ["entscheiden", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which hotel to choose.",
+          translation: "We need to decide which hotel to choose.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "wählen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Der Zug wird in zehn Minuten ___.",
+          options: ["abfahren", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'abfahren' means to depart - the train will depart in ten minutes.",
+          translation: "The train will depart in ten minutes.",
+          level: 3,
+          vocabularyIds: ["abfahren"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wann werden wir am Flughafen ___?",
+          options: ["ankommen", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'ankommen' means to arrive - when will we arrive at the airport?",
+          translation: "When will we arrive at the airport?",
+          level: 3,
+          vocabularyIds: ["ankommen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich habe ein Hotelzimmer ___.",
+          options: ["reserviert", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'reserviert' means reserved - I reserved a hotel room.",
+          translation: "I reserved a hotel room.",
+          level: 3,
+          vocabularyIds: ["reservieren"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ein gutes Restaurant ___?",
+          options: ["empfehlen", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'empfehlen' means to recommend - can you recommend a good restaurant?",
+          translation: "Can you recommend a good restaurant?",
+          level: 3,
+          vocabularyIds: ["empfehlen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich muss den Zug ___.",
+          options: ["verlassen", "fahren", "kommen", "gehen"],
+          correct: 0,
+          explanation: "'verlassen' means to leave - I need to leave the train.",
+          translation: "I need to leave the train.",
+          level: 3,
+          vocabularyIds: ["verlassen"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir bitte erklären, wie ich zum Flughafen komme?",
+          translation: "Can you please explain to me how to get to the airport?",
+          topics: ["Requesting directions", "Asking for help", "Seeking information", "Getting assistance"],
+          correct: 0,
+          explanation: "The speaker is asking for directions to the airport.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, mein Ticket zu buchen. Was soll ich tun?",
+          translation: "I forgot to book my ticket. What should I do?",
+          topics: ["Expressing a mistake", "Reporting a problem", "Asking for advice", "Seeking help"],
+          correct: 0,
+          explanation: "The speaker forgot to book their ticket and is asking for help.",
+          level: 3,
+          vocabularyIds: ["vergessen", "buchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welches Hotel wir buchen möchten.",
+          translation: "We need to decide which hotel we want to book.",
+          topics: ["Making a decision", "Planning a trip", "Discussing options", "Coordinating plans"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to make a decision about hotel booking.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "buchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Der Zug wird in fünf Minuten abfahren. Wir müssen schnell einsteigen.",
+          translation: "The train will depart in five minutes. We need to board quickly.",
+          topics: ["Urging someone to hurry", "Giving departure information", "Warning about time", "Instructing to board"],
+          correct: 0,
+          explanation: "The speaker is informing about departure time and urging to board.",
+          level: 3,
+          vocabularyIds: ["abfahren", "einsteigen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht an den Namen der Station, wo wir aussteigen müssen.",
+          translation: "I don't remember the name of the station where we need to get off.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Asking for help", "Seeking clarification"],
+          correct: 0,
+          explanation: "The speaker is saying they don't remember the station name.",
+          level: 3,
+          vocabularyIds: ["erinnern", "aussteigen"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir raten, welche Sehenswürdigkeiten ich besuchen sollte?",
+          translation: "Can you advise me which sights I should visit?",
+          topics: ["Asking for travel advice", "Seeking recommendations", "Planning sightseeing", "Requesting guidance"],
+          correct: 0,
+          explanation: "The speaker is asking for advice about which sights to visit.",
+          level: 3,
+          vocabularyIds: ["raten", "besuchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe die Anweisungen nicht. Können Sie sie mir erklären?",
+          translation: "I don't understand the instructions. Can you explain them to me?",
+          topics: ["Expressing confusion", "Asking for clarification", "Requesting help", "Seeking explanation"],
+          correct: 0,
+          explanation: "The speaker doesn't understand instructions and is asking for explanation.",
+          level: 3,
+          vocabularyIds: ["verstehen", "erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich unser Hotelzimmer reserviert.",
+          translation: "We successfully reserved our hotel room.",
+          topics: ["Confirming a reservation", "Reporting success", "Sharing good news", "Completing a task"],
+          correct: 0,
+          explanation: "The speaker is confirming they successfully made a hotel reservation.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "reservieren"]
+        }
       ]
     ]
   },
@@ -1473,6 +1636,129 @@ export const exercises = {
           explanation: "The speaker is talking about their daughter going to school.",
           level: 2,
           vocabularyIds: ["tochter", "schule"]
+        }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an den Namen meines Onkels.",
+          options: ["erinnern", "besuchen", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember my uncle's name.",
+          translation: "I can't remember my uncle's name.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, ob wir unsere Großeltern besuchen sollen.",
+          options: ["entscheiden", "besuchen", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide whether to visit our grandparents.",
+          translation: "We need to decide whether to visit our grandparents.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "besuchen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Meine Schwester hat ___ vergessen, dass wir heute zusammen essen wollten.",
+          options: ["vergessen", "besuchen", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'vergessen' means to forget - my sister forgot that we wanted to eat together today.",
+          translation: "My sister forgot that we wanted to eat together today.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum mein Bruder mich ___ hat.",
+          options: ["verlassen", "besuchen", "treffen", "erinnern"],
+          correct: 0,
+          explanation: "'verlassen' means to leave/abandon - I don't understand why my brother left me.",
+          translation: "I don't understand why my brother left me.",
+          level: 3,
+          vocabularyIds: ["verstehen", "verlassen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, wie ich meine Familie besser verstehen kann?",
+          options: ["erklären", "besuchen", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me how I can better understand my family?",
+          translation: "Can you explain to me how I can better understand my family?",
+          level: 3,
+          vocabularyIds: ["erklären", "verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich kann mich nicht daran erinnern, wann ich meine Großmutter das letzte Mal besucht habe.",
+          translation: "I can't remember when I last visited my grandmother.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about family visits", "Reflecting on relationships"],
+          correct: 0,
+          explanation: "The speaker is saying they can't remember when they last visited their grandmother.",
+          level: 3,
+          vocabularyIds: ["erinnern", "besuchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, ob wir dieses Jahr zu Weihnachten zu meiner Familie fahren sollen.",
+          translation: "We need to decide whether we should drive to my family this year for Christmas.",
+          topics: ["Making a family decision", "Planning holiday visits", "Discussing travel plans", "Coordinating family time"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to make a decision about visiting family for Christmas.",
+          level: 3,
+          vocabularyIds: ["entscheiden"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, meiner Mutter zum Geburtstag zu gratulieren.",
+          translation: "I forgot to congratulate my mother on her birthday.",
+          topics: ["Expressing regret", "Admitting a mistake", "Talking about family obligations", "Feeling guilty"],
+          correct: 0,
+          explanation: "The speaker forgot to congratulate their mother on her birthday.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "tts",
+          audioText: "Mein Vater hat die Familie verlassen, als ich noch klein war.",
+          translation: "My father left the family when I was still small.",
+          topics: ["Sharing difficult family history", "Talking about past events", "Expressing emotions", "Discussing family structure"],
+          correct: 0,
+          explanation: "The speaker is sharing a difficult family history.",
+          level: 3,
+          vocabularyIds: ["verlassen"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir erklären, wie ich meine Geschwister besser verstehen kann?",
+          translation: "Can you explain to me how I can better understand my siblings?",
+          topics: ["Asking for advice", "Seeking family relationship help", "Expressing confusion", "Requesting guidance"],
+          correct: 0,
+          explanation: "The speaker is asking for advice on understanding their siblings better.",
+          level: 3,
+          vocabularyIds: ["erklären", "verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum meine Schwester so wütend auf mich ist.",
+          translation: "I don't understand why my sister is so angry with me.",
+          topics: ["Expressing confusion", "Trying to understand emotions", "Discussing family conflicts", "Seeking clarification"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why their sister is angry.",
+          level: 3,
+          vocabularyIds: ["verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich eine Familienfeier organisiert, obwohl es schwierig war, alle zu versammeln.",
+          translation: "We successfully organized a family celebration, although it was difficult to gather everyone.",
+          topics: ["Reporting success", "Describing challenges", "Organizing family events", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful organization of a family event despite challenges.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "organisieren"]
         }
       ]
     ]
@@ -1894,6 +2180,119 @@ export const exercises = {
           level: 2,
           vocabularyIds: ["kaufen", "mutter"]
         }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, warum dieser Artikel so teuer ist?",
+          options: ["erklären", "kaufen", "bezahlen", "fragen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me why this item is so expensive?",
+          translation: "Can you explain to me why this item is so expensive?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, was ich ___ wollte.",
+          options: ["kaufen", "erklären", "verstehen", "entscheiden"],
+          correct: 0,
+          explanation: "'kaufen' means to buy - I forgot what I wanted to buy.",
+          translation: "I forgot what I wanted to buy.",
+          level: 3,
+          vocabularyIds: ["vergessen", "kaufen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welches Produkt wir wählen sollen.",
+          options: ["entscheiden", "kaufen", "bezahlen", "fragen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which product we should choose.",
+          translation: "We need to decide which product we should choose.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "wählen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an den Preis, den ich gestern gesehen habe.",
+          options: ["erinnern", "kaufen", "bezahlen", "fragen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember the price I saw yesterday.",
+          translation: "I can't remember the price I saw yesterday.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum dieser Artikel so ___ ist.",
+          options: ["teuer", "billig", "gut", "schlecht"],
+          correct: 0,
+          explanation: "'teuer' means expensive - I don't understand why this item is so expensive.",
+          translation: "I don't understand why this item is so expensive.",
+          level: 3,
+          vocabularyIds: ["verstehen", "teuer"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir bitte erklären, was der Unterschied zwischen diesen beiden Produkten ist?",
+          translation: "Can you please explain to me what the difference is between these two products?",
+          topics: ["Asking for product comparison", "Seeking detailed information", "Making a purchase decision", "Requesting clarification"],
+          correct: 0,
+          explanation: "The speaker is asking for an explanation of the difference between two products.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, was ich eigentlich kaufen wollte. Können Sie mir helfen?",
+          translation: "I forgot what I actually wanted to buy. Can you help me?",
+          topics: ["Expressing a memory lapse", "Asking for help", "Admitting confusion", "Seeking assistance"],
+          correct: 0,
+          explanation: "The speaker forgot what they wanted to buy and is asking for help.",
+          level: 3,
+          vocabularyIds: ["vergessen", "kaufen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welches Geschenk wir für unsere Mutter wählen sollen.",
+          translation: "We need to decide which gift we should choose for our mother.",
+          topics: ["Making a purchase decision", "Discussing gift options", "Coordinating with others", "Planning a purchase"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to make a decision about which gift to choose.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "wählen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an den genauen Preis, den ich gestern gesehen habe.",
+          translation: "I don't remember the exact price I saw yesterday anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Comparing prices", "Seeking information"],
+          correct: 0,
+          explanation: "The speaker doesn't remember the exact price they saw yesterday.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum dieser Artikel so viel kostet. Können Sie es mir erklären?",
+          translation: "I don't understand why this item costs so much. Can you explain it to me?",
+          topics: ["Questioning a price", "Asking for justification", "Expressing confusion", "Requesting explanation"],
+          correct: 0,
+          explanation: "The speaker doesn't understand the high price and is asking for an explanation.",
+          level: 3,
+          vocabularyIds: ["verstehen", "erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich alle Geschenke für Weihnachten gekauft, obwohl es schwierig war, die richtigen zu finden.",
+          translation: "We successfully bought all the gifts for Christmas, although it was difficult to find the right ones.",
+          topics: ["Reporting completion", "Describing shopping success", "Sharing achievements", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful completion of Christmas shopping despite challenges.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "kaufen"]
+        }
       ]
     ]
   },
@@ -2313,6 +2712,119 @@ export const exercises = {
           explanation: "The speaker is talking about visiting cultural events.",
           level: 2,
           vocabularyIds: ["besuchen"]
+        }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, wie man dieses Instrument ___.",
+          options: ["spielt", "lernt", "übt", "besucht"],
+          correct: 0,
+          explanation: "'spielt' means plays - I forgot how to play this instrument.",
+          translation: "I forgot how to play this instrument.",
+          level: 3,
+          vocabularyIds: ["vergessen", "spielen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welches Hobby wir gemeinsam ausüben sollen.",
+          options: ["entscheiden", "lernen", "üben", "besuchen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which hobby we should pursue together.",
+          translation: "We need to decide which hobby we should pursue together.",
+          level: 3,
+          vocabularyIds: ["entscheiden"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, wie ich besser Klavier spielen kann?",
+          options: ["erklären", "lernen", "üben", "besuchen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me how I can play piano better?",
+          translation: "Can you explain to me how I can play piano better?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an die Regeln dieses Spiels.",
+          options: ["erinnern", "lernen", "üben", "besuchen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember the rules of this game.",
+          translation: "I can't remember the rules of this game.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum mein Hobby so ___ ist.",
+          options: ["kompliziert", "einfach", "interessant", "langweilig"],
+          correct: 0,
+          explanation: "'kompliziert' means complicated - I don't understand why my hobby is so complicated.",
+          translation: "I don't understand why my hobby is so complicated.",
+          level: 3,
+          vocabularyIds: ["verstehen", "kompliziert"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, wie man diese bestimmte Technik beim Malen anwendet.",
+          translation: "I forgot how to apply this specific technique in painting.",
+          topics: ["Expressing a memory lapse", "Admitting difficulty", "Talking about skills", "Seeking help"],
+          correct: 0,
+          explanation: "The speaker forgot how to apply a specific painting technique.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welches Musikinstrument wir lernen möchten.",
+          translation: "We need to decide which musical instrument we want to learn.",
+          topics: ["Making a decision", "Planning to learn something", "Discussing options", "Choosing a hobby"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to decide which instrument to learn.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "lernen"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir erklären, wie ich meine Fotografie-Fähigkeiten verbessern kann?",
+          translation: "Can you explain to me how I can improve my photography skills?",
+          topics: ["Asking for advice", "Seeking improvement tips", "Requesting guidance", "Wanting to learn"],
+          correct: 0,
+          explanation: "The speaker is asking for advice on improving photography skills.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an alle Schritte dieser Tanzchoreographie.",
+          translation: "I don't remember all the steps of this dance choreography anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about dance", "Needing practice"],
+          correct: 0,
+          explanation: "The speaker doesn't remember all the dance steps.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum dieses Hobby so schwierig zu erlernen ist.",
+          translation: "I don't understand why this hobby is so difficult to learn.",
+          topics: ["Expressing confusion", "Questioning difficulty", "Talking about challenges", "Seeking understanding"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why the hobby is so difficult to learn.",
+          level: 3,
+          vocabularyIds: ["verstehen", "schwierig"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich ein Konzert organisiert, obwohl es sehr kompliziert war.",
+          translation: "We successfully organized a concert, although it was very complicated.",
+          topics: ["Reporting success", "Describing challenges", "Organizing events", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful organization of a concert despite complications.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "organisieren"]
         }
       ]
     ]
@@ -2744,6 +3256,119 @@ export const exercises = {
           level: 2,
           vocabularyIds: ["katze", "schlafen"]
         }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, wie man diesen Tiernamen auf Deutsch ___.",
+          options: ["ausspricht", "sieht", "hört", "füttert"],
+          correct: 0,
+          explanation: "'ausspricht' means pronounces - I forgot how to pronounce this animal name in German.",
+          translation: "I forgot how to pronounce this animal name in German.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welches Tier wir als Haustier wählen sollen.",
+          options: ["entscheiden", "kaufen", "besuchen", "füttern"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which animal we should choose as a pet.",
+          translation: "We need to decide which animal we should choose as a pet.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "wählen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, wie man sich richtig um dieses Tier kümmert?",
+          options: ["erklären", "kaufen", "besuchen", "füttern"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me how to properly care for this animal?",
+          translation: "Can you explain to me how to properly care for this animal?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an den Namen dieses Tieres, das ich gestern gesehen habe.",
+          options: ["erinnern", "kaufen", "besuchen", "füttern"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember the name of this animal I saw yesterday.",
+          translation: "I can't remember the name of this animal I saw yesterday.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum dieses Tier so ___ ist.",
+          options: ["selten", "häufig", "groß", "klein"],
+          correct: 0,
+          explanation: "'selten' means rare - I don't understand why this animal is so rare.",
+          translation: "I don't understand why this animal is so rare.",
+          level: 3,
+          vocabularyIds: ["verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, wie man die verschiedenen Tierarten auf Deutsch nennt.",
+          translation: "I forgot how to name the different animal species in German.",
+          topics: ["Expressing a memory lapse", "Admitting difficulty", "Learning vocabulary", "Seeking help"],
+          correct: 0,
+          explanation: "The speaker forgot how to name different animal species in German.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welches Tier wir im Zoo besuchen möchten, da wir nicht genug Zeit für alle haben.",
+          translation: "We need to decide which animal we want to visit at the zoo, since we don't have enough time for all of them.",
+          topics: ["Making a decision", "Planning a zoo visit", "Discussing time constraints", "Prioritizing activities"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to decide which animals to visit due to time constraints.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "besuchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir erklären, wie man sich richtig um einen Hund kümmert?",
+          translation: "Can you explain to me how to properly care for a dog?",
+          topics: ["Asking for pet care advice", "Seeking information", "Requesting guidance", "Learning about animals"],
+          correct: 0,
+          explanation: "The speaker is asking for advice on how to care for a dog.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an den Namen des Tieres, das ich im Zoo gesehen habe.",
+          translation: "I don't remember the name of the animal I saw at the zoo anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about zoo visits", "Needing help"],
+          correct: 0,
+          explanation: "The speaker doesn't remember the name of an animal they saw at the zoo.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum einige Tiere so selten geworden sind.",
+          translation: "I don't understand why some animals have become so rare.",
+          topics: ["Expressing confusion", "Questioning conservation", "Talking about endangered species", "Seeking understanding"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why some animals have become rare.",
+          level: 3,
+          vocabularyIds: ["verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich ein Tierheim besucht und viele interessante Tiere gesehen, obwohl es sehr emotional war.",
+          translation: "We successfully visited an animal shelter and saw many interesting animals, although it was very emotional.",
+          topics: ["Reporting a visit", "Describing experiences", "Sharing emotions", "Talking about animal welfare"],
+          correct: 0,
+          explanation: "The speaker is reporting a successful visit to an animal shelter despite emotional challenges.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "besuchen"]
+        }
       ]
     ]
   },
@@ -3163,6 +3788,119 @@ export const exercises = {
           explanation: "The speaker is describing their workplace.",
           level: 2,
           vocabularyIds: ["arbeit"]
+        }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, was mein Chef mir ___ hat.",
+          options: ["erklärt", "gearbeitet", "getroffen", "verlassen"],
+          correct: 0,
+          explanation: "'erklärt' means explained - I forgot what my boss explained to me.",
+          translation: "I forgot what my boss explained to me.",
+          level: 3,
+          vocabularyIds: ["vergessen", "erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welches Projekt wir zuerst bearbeiten sollen.",
+          options: ["entscheiden", "arbeiten", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which project we should work on first.",
+          translation: "We need to decide which project we should work on first.",
+          level: 3,
+          vocabularyIds: ["entscheiden"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, wie ich diese Aufgabe besser erledigen kann?",
+          options: ["erklären", "arbeiten", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me how I can complete this task better?",
+          translation: "Can you explain to me how I can complete this task better?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an den Namen meines Kollegen.",
+          options: ["erinnern", "arbeiten", "treffen", "verlassen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember my colleague's name.",
+          translation: "I can't remember my colleague's name.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum diese Aufgabe so ___ ist.",
+          options: ["kompliziert", "einfach", "wichtig", "unwichtig"],
+          correct: 0,
+          explanation: "'kompliziert' means complicated - I don't understand why this task is so complicated.",
+          translation: "I don't understand why this task is so complicated.",
+          level: 3,
+          vocabularyIds: ["verstehen", "kompliziert"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, was mein Chef mir gestern erklärt hat. Können Sie es mir noch einmal sagen?",
+          translation: "I forgot what my boss explained to me yesterday. Can you tell me again?",
+          topics: ["Expressing a memory lapse", "Asking for repetition", "Admitting confusion", "Seeking clarification"],
+          correct: 0,
+          explanation: "The speaker forgot what their boss explained and is asking for it to be repeated.",
+          level: 3,
+          vocabularyIds: ["vergessen", "erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welches Projekt wir zuerst bearbeiten sollen, da wir nicht genug Zeit für alle haben.",
+          translation: "We need to decide which project we should work on first, since we don't have enough time for all of them.",
+          topics: ["Making a work decision", "Prioritizing tasks", "Discussing time management", "Coordinating work"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to decide which project to prioritize.",
+          level: 3,
+          vocabularyIds: ["entscheiden"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir erklären, wie ich diese komplizierte Aufgabe besser verstehen kann?",
+          translation: "Can you explain to me how I can better understand this complicated task?",
+          topics: ["Asking for help", "Seeking clarification", "Requesting explanation", "Expressing difficulty"],
+          correct: 0,
+          explanation: "The speaker is asking for help understanding a complicated task.",
+          level: 3,
+          vocabularyIds: ["erklären", "verstehen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an alle Details des Meetings, das wir gestern hatten.",
+          translation: "I don't remember all the details of the meeting we had yesterday anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about meetings", "Needing notes"],
+          correct: 0,
+          explanation: "The speaker doesn't remember all the meeting details.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum diese Arbeit so schwierig zu erledigen ist.",
+          translation: "I don't understand why this work is so difficult to complete.",
+          topics: ["Expressing confusion", "Questioning difficulty", "Talking about challenges", "Seeking understanding"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why the work is so difficult.",
+          level: 3,
+          vocabularyIds: ["verstehen", "schwierig"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich das Projekt abgeschlossen, obwohl es sehr kompliziert war.",
+          translation: "We successfully completed the project, although it was very complicated.",
+          topics: ["Reporting success", "Describing challenges", "Completing work", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful project completion despite complications.",
+          level: 3,
+          vocabularyIds: ["erfolgreich"]
         }
       ]
     ]
@@ -3584,6 +4322,119 @@ export const exercises = {
           level: 2,
           vocabularyIds: ["schlafen", "gesund"]
         }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, was diese Medizin bewirkt?",
+          options: ["erklären", "nehmen", "besuchen", "verstehen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me what this medicine does?",
+          translation: "Can you explain to me what this medicine does?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, wann ich die Medizin ___ soll.",
+          options: ["nehmen", "erklären", "verstehen", "besuchen"],
+          correct: 0,
+          explanation: "'nehmen' means to take - I forgot when I should take the medicine.",
+          translation: "I forgot when I should take the medicine.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, ob wir zum Arzt gehen sollen.",
+          options: ["entscheiden", "nehmen", "besuchen", "verstehen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide whether we should go to the doctor.",
+          translation: "We need to decide whether we should go to the doctor.",
+          level: 3,
+          vocabularyIds: ["entscheiden"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an die Anweisungen des Arztes.",
+          options: ["erinnern", "nehmen", "besuchen", "verstehen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember the doctor's instructions.",
+          translation: "I can't remember the doctor's instructions.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum diese Behandlung so ___ ist.",
+          options: ["kompliziert", "einfach", "wichtig", "unwichtig"],
+          correct: 0,
+          explanation: "'kompliziert' means complicated - I don't understand why this treatment is so complicated.",
+          translation: "I don't understand why this treatment is so complicated.",
+          level: 3,
+          vocabularyIds: ["verstehen", "kompliziert"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir bitte erklären, was diese Medizin bewirkt und wie ich sie einnehmen soll?",
+          translation: "Can you please explain to me what this medicine does and how I should take it?",
+          topics: ["Asking for medical information", "Seeking medication instructions", "Requesting clarification", "Understanding treatment"],
+          correct: 0,
+          explanation: "The speaker is asking for an explanation about medication.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, wann ich die Medizin nehmen soll. Können Sie mir helfen?",
+          translation: "I forgot when I should take the medicine. Can you help me?",
+          topics: ["Expressing a memory lapse", "Asking for help", "Admitting confusion", "Seeking medication schedule"],
+          correct: 0,
+          explanation: "The speaker forgot when to take medicine and is asking for help.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, ob wir eine zweite Meinung von einem anderen Arzt einholen sollen.",
+          translation: "We need to decide whether we should get a second opinion from another doctor.",
+          topics: ["Making a medical decision", "Considering options", "Discussing treatment", "Seeking additional advice"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to decide about getting a second medical opinion.",
+          level: 3,
+          vocabularyIds: ["entscheiden"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an alle Anweisungen, die der Arzt mir gegeben hat.",
+          translation: "I don't remember all the instructions the doctor gave me anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about medical visits", "Needing written instructions"],
+          correct: 0,
+          explanation: "The speaker doesn't remember all the doctor's instructions.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum diese Behandlung so kompliziert und teuer ist.",
+          translation: "I don't understand why this treatment is so complicated and expensive.",
+          topics: ["Expressing confusion", "Questioning medical costs", "Talking about treatment", "Seeking understanding"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why the treatment is complicated and expensive.",
+          level: 3,
+          vocabularyIds: ["verstehen", "kompliziert"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich eine gesunde Lebensweise organisiert, obwohl es anfangs sehr schwierig war.",
+          translation: "We successfully organized a healthy lifestyle, although it was very difficult at first.",
+          topics: ["Reporting success", "Describing lifestyle changes", "Organizing health routines", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful organization of a healthy lifestyle despite initial difficulties.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "organisieren"]
+        }
       ]
     ]
   },
@@ -4003,6 +4854,119 @@ export const exercises = {
           explanation: "The speaker is talking about an upcoming exam.",
           level: 2,
           vocabularyIds: ["schreiben"]
+        }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, wie ich diese Aufgabe lösen kann?",
+          options: ["erklären", "lernen", "schreiben", "lesen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me how I can solve this task?",
+          translation: "Can you explain to me how I can solve this task?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, was ich für die Prüfung ___ soll.",
+          options: ["lernen", "erklären", "verstehen", "schreiben"],
+          correct: 0,
+          explanation: "'lernen' means to study - I forgot what I should study for the exam.",
+          translation: "I forgot what I should study for the exam.",
+          level: 3,
+          vocabularyIds: ["vergessen", "lernen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welches Fach wir wählen sollen.",
+          options: ["entscheiden", "lernen", "schreiben", "lesen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which subject we should choose.",
+          translation: "We need to decide which subject we should choose.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "wählen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an die Formel, die der Lehrer erklärt hat.",
+          options: ["erinnern", "lernen", "schreiben", "lesen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember the formula the teacher explained.",
+          translation: "I can't remember the formula the teacher explained.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum diese Aufgabe so ___ ist.",
+          options: ["schwierig", "einfach", "wichtig", "unwichtig"],
+          correct: 0,
+          explanation: "'schwierig' means difficult - I don't understand why this task is so difficult.",
+          translation: "I don't understand why this task is so difficult.",
+          level: 3,
+          vocabularyIds: ["verstehen", "schwierig"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir bitte erklären, wie ich diese mathematische Aufgabe lösen kann?",
+          translation: "Can you please explain to me how I can solve this math problem?",
+          topics: ["Asking for help", "Seeking explanation", "Requesting clarification", "Understanding homework"],
+          correct: 0,
+          explanation: "The speaker is asking for help understanding how to solve a math problem.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, was ich für die Prüfung lernen soll. Können Sie mir helfen?",
+          translation: "I forgot what I should study for the exam. Can you help me?",
+          topics: ["Expressing a memory lapse", "Asking for help", "Admitting confusion", "Seeking study guidance"],
+          correct: 0,
+          explanation: "The speaker forgot what to study and is asking for help.",
+          level: 3,
+          vocabularyIds: ["vergessen", "lernen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welches Fach wir im nächsten Semester wählen sollen.",
+          translation: "We need to decide which subject we should choose next semester.",
+          topics: ["Making an academic decision", "Planning course selection", "Discussing options", "Choosing subjects"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to decide which subject to choose.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "wählen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an alle Formeln, die der Lehrer gestern erklärt hat.",
+          translation: "I don't remember all the formulas the teacher explained yesterday anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about lessons", "Needing notes"],
+          correct: 0,
+          explanation: "The speaker doesn't remember all the formulas from yesterday's lesson.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum diese Aufgabe so schwierig zu lösen ist.",
+          translation: "I don't understand why this task is so difficult to solve.",
+          topics: ["Expressing confusion", "Questioning difficulty", "Talking about homework", "Seeking understanding"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why the task is so difficult.",
+          level: 3,
+          vocabularyIds: ["verstehen", "schwierig"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich das Schulprojekt abgeschlossen, obwohl es sehr kompliziert war.",
+          translation: "We successfully completed the school project, although it was very complicated.",
+          topics: ["Reporting success", "Describing challenges", "Completing assignments", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful completion of a school project despite complications.",
+          level: 3,
+          vocabularyIds: ["erfolgreich"]
         }
       ]
     ]
@@ -4433,6 +5397,119 @@ export const exercises = {
           explanation: "The speaker is saying the city is very beautiful and they want to stay here.",
           level: 2,
           vocabularyIds: ["stadt", "schön"]
+        }
+      ],
+      [
+        // Level 3 exercises
+        {
+          type: "missing-word",
+          sentence: "Können Sie mir ___ erklären, wie ich zu dieser Sehenswürdigkeit komme?",
+          options: ["erklären", "besuchen", "sehen", "verlassen"],
+          correct: 0,
+          explanation: "'erklären' means to explain - can you explain to me how to get to this sight?",
+          translation: "Can you explain to me how to get to this sight?",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich habe vergessen, wie diese Stadt ___ heißt.",
+          options: ["wirklich", "eigentlich", "vielleicht", "wahrscheinlich"],
+          correct: 0,
+          explanation: "'wirklich' means really/actually - I forgot what this city is really called.",
+          translation: "I forgot what this city is really called.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Wir müssen ___ treffen, welche Stadt wir besuchen sollen.",
+          options: ["entscheiden", "besuchen", "sehen", "verlassen"],
+          correct: 0,
+          explanation: "'entscheiden' means to decide - we need to decide which city we should visit.",
+          translation: "We need to decide which city we should visit.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "besuchen"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich kann mich nicht ___ an den Namen der Straße, wo ich gestern war.",
+          options: ["erinnern", "besuchen", "sehen", "verlassen"],
+          correct: 0,
+          explanation: "'erinnern' means to remember - I can't remember the name of the street where I was yesterday.",
+          translation: "I can't remember the name of the street where I was yesterday.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "missing-word",
+          sentence: "Ich verstehe nicht, warum diese Stadt so ___ ist.",
+          options: ["berühmt", "unbekannt", "klein", "groß"],
+          correct: 0,
+          explanation: "'berühmt' means famous - I don't understand why this city is so famous.",
+          translation: "I don't understand why this city is so famous.",
+          level: 3,
+          vocabularyIds: ["verstehen", "berühmt"]
+        },
+        {
+          type: "tts",
+          audioText: "Können Sie mir bitte erklären, wie ich zu den wichtigsten Sehenswürdigkeiten dieser Stadt komme?",
+          translation: "Can you please explain to me how to get to the most important sights of this city?",
+          topics: ["Asking for directions", "Requesting tourist information", "Planning sightseeing", "Seeking guidance"],
+          correct: 0,
+          explanation: "The speaker is asking for directions to the city's main sights.",
+          level: 3,
+          vocabularyIds: ["erklären"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich habe vergessen, wie diese historische Stadt wirklich heißt. Können Sie mir helfen?",
+          translation: "I forgot what this historical city is really called. Can you help me?",
+          topics: ["Expressing a memory lapse", "Asking for help", "Admitting confusion", "Seeking information"],
+          correct: 0,
+          explanation: "The speaker forgot the city's name and is asking for help.",
+          level: 3,
+          vocabularyIds: ["vergessen"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir müssen uns entscheiden, welche Stadt wir in unserem nächsten Urlaub besuchen sollen.",
+          translation: "We need to decide which city we should visit on our next vacation.",
+          topics: ["Making a travel decision", "Planning a vacation", "Discussing destinations", "Choosing a city"],
+          correct: 0,
+          explanation: "The speaker is discussing the need to decide which city to visit.",
+          level: 3,
+          vocabularyIds: ["entscheiden", "besuchen"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich erinnere mich nicht mehr an den Namen der Straße, wo ich gestern das beste Restaurant gefunden habe.",
+          translation: "I don't remember the name of the street where I found the best restaurant yesterday anymore.",
+          topics: ["Expressing uncertainty", "Admitting a memory lapse", "Talking about restaurants", "Needing directions"],
+          correct: 0,
+          explanation: "The speaker doesn't remember the street name where they found a restaurant.",
+          level: 3,
+          vocabularyIds: ["erinnern"]
+        },
+        {
+          type: "tts",
+          audioText: "Ich verstehe nicht, warum diese Stadt so berühmt für ihre Architektur ist.",
+          translation: "I don't understand why this city is so famous for its architecture.",
+          topics: ["Expressing confusion", "Questioning reputation", "Talking about architecture", "Seeking understanding"],
+          correct: 0,
+          explanation: "The speaker doesn't understand why the city is famous for architecture.",
+          level: 3,
+          vocabularyIds: ["verstehen", "berühmt"]
+        },
+        {
+          type: "tts",
+          audioText: "Wir haben erfolgreich eine Stadtrundfahrt organisiert, obwohl es sehr kompliziert war, alle Sehenswürdigkeiten zu besuchen.",
+          translation: "We successfully organized a city tour, although it was very complicated to visit all the sights.",
+          topics: ["Reporting success", "Describing challenges", "Organizing tours", "Expressing satisfaction"],
+          correct: 0,
+          explanation: "The speaker is reporting successful organization of a city tour despite complications.",
+          level: 3,
+          vocabularyIds: ["erfolgreich", "organisieren"]
         }
       ]
     ]
