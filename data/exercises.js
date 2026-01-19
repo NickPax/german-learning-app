@@ -3473,7 +3473,7 @@ export const exercises = {
           sentence: "Die ___ ist groß.",
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Schule' means school - large school.",
+          explanation: "'Schule' means school and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The school is large.",
           level: 1,
           vocabularyIds: ["schule", "groß"]
@@ -3513,7 +3513,7 @@ export const exercises = {
           sentence: "Die ___ ist gut.",
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Schule' means school - good school.",
+          explanation: "'Schule' means school and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The school is good.",
           level: 1,
           vocabularyIds: ["schule", "gut"]
@@ -3543,7 +3543,7 @@ export const exercises = {
           sentence: "Die ___ ist wichtig.",
           options: ["Schule", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Schule' means school - important school.",
+          explanation: "'Schule' means school and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The school is important.",
           level: 1,
           vocabularyIds: ["schule", "wichtig"]
@@ -3903,7 +3903,7 @@ export const exercises = {
           sentence: "Die ___ ist groß.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - large city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is large.",
           level: 1,
           vocabularyIds: ["stadt", "groß"]
@@ -3923,7 +3923,7 @@ export const exercises = {
           sentence: "Die ___ ist schön.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - beautiful city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is beautiful.",
           level: 1,
           vocabularyIds: ["stadt", "schön"]
@@ -3943,7 +3943,7 @@ export const exercises = {
           sentence: "Die ___ ist gut.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - good city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is good.",
           level: 1,
           vocabularyIds: ["stadt", "gut"]
@@ -3963,7 +3963,7 @@ export const exercises = {
           sentence: "Die ___ ist wichtig.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - important city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is important.",
           level: 1,
           vocabularyIds: ["stadt", "wichtig"]
@@ -3983,7 +3983,7 @@ export const exercises = {
           sentence: "Die ___ ist neu.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - new city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is new.",
           level: 1,
           vocabularyIds: ["stadt", "neu"]
@@ -4096,7 +4096,7 @@ export const exercises = {
           sentence: "Die ___ ist sehr lebendig.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - very lively city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is very lively.",
           level: 2,
           vocabularyIds: ["stadt"]
@@ -4116,7 +4116,7 @@ export const exercises = {
           sentence: "Die ___ ist historisch.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - historical city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is historical.",
           level: 2,
           vocabularyIds: ["stadt"]
@@ -4136,7 +4136,7 @@ export const exercises = {
           sentence: "Die ___ ist modern.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - modern city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is modern.",
           level: 2,
           vocabularyIds: ["stadt"]
@@ -4176,7 +4176,7 @@ export const exercises = {
           sentence: "Die ___ ist berühmt.",
           options: ["Stadt", "Haus", "Auto", "Stuhl"],
           correct: 0,
-          explanation: "'Stadt' means city - famous city.",
+          explanation: "'Stadt' means city and uses the feminine article 'die'. The other options don't work: 'Haus' and 'Auto' are neuter (das), and 'Stuhl' is masculine (der).",
           translation: "The city is famous.",
           level: 2,
           vocabularyIds: ["stadt"]
