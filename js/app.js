@@ -40,6 +40,10 @@ const completionScreen = document.getElementById('completion-screen');
 const finalScore = document.getElementById('final-score');
 const completionMessage = document.getElementById('completion-message');
 const themeToggle = document.getElementById('theme-toggle');
+const hamburgerBtn = document.getElementById('hamburger-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+const mobileChangeLevelBtn = document.getElementById('mobile-change-level-btn');
+const mobileResetProgressBtn = document.getElementById('mobile-reset-progress-btn');
 const newTopicBtn = document.getElementById('new-topic-btn');
 const restartTopicBtn = document.getElementById('restart-topic-btn');
 const backToLevelsBtn = document.getElementById('back-to-levels-btn');
@@ -59,6 +63,51 @@ if (themeToggle) {
         if (icon) {
             icon.className = isDarkMode ? 'fas fa-sun' : 'fas fa-moon';
         }
+    });
+}
+
+// Mobile hamburger menu (for theme toggle on small screens)
+function closeMobileMenu() {
+    if (!mobileMenu || !hamburgerBtn) return;
+    mobileMenu.classList.add('hidden');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+}
+function toggleMobileMenu() {
+    if (!mobileMenu || !hamburgerBtn) return;
+    const willOpen = mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden');
+    hamburgerBtn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+
+    // Keep menu actions sensible based on current screen
+    if (willOpen) {
+        if (mobileChangeLevelBtn && levelSelectionScreen) {
+            mobileChangeLevelBtn.disabled = !levelSelectionScreen.classList.contains('hidden');
+        }
+    }
+}
+if (hamburgerBtn && mobileMenu) {
+    hamburgerBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMobileMenu();
+    });
+    mobileMenu.addEventListener('click', (e) => e.stopPropagation());
+    document.addEventListener('click', closeMobileMenu);
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeMobileMenu();
+    });
+}
+
+// Mobile menu actions
+if (mobileChangeLevelBtn) {
+    mobileChangeLevelBtn.addEventListener('click', () => {
+        closeMobileMenu();
+        showLevelSelection();
+    });
+}
+if (mobileResetProgressBtn) {
+    mobileResetProgressBtn.addEventListener('click', () => {
+        closeMobileMenu();
+        resetProgress();
     });
 }
 

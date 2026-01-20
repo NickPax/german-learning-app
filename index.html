@@ -14,8 +14,21 @@
 <h1><i class="fas fa-language"></i> Jetzt Deutsch</h1>
 <p class="subtitle">Learn German through interactive exercises. Perfect for beginners and intermediate learners!</p>
 </div>
-<div class="theme-toggle" id="theme-toggle">
-<i class="fas fa-moon"></i>
+<div class="header-controls">
+  <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="mobile-menu hidden" id="mobile-menu" role="menu">
+    <div class="theme-toggle" id="theme-toggle" role="menuitem" tabindex="0" aria-label="Toggle dark mode">
+      <i class="fas fa-moon"></i>
+    </div>
+    <button class="mobile-menu-item" id="mobile-change-level-btn" type="button" role="menuitem">
+      <i class="fas fa-layer-group"></i> Change level
+    </button>
+    <button class="mobile-menu-item danger" id="mobile-reset-progress-btn" type="button" role="menuitem">
+      <i class="fas fa-trash-alt"></i> Reset progress
+    </button>
+  </div>
 </div>
 </header>
 
