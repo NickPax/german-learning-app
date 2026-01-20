@@ -62,7 +62,7 @@ display: flex;
 align-items: center;
 }
 .hamburger-btn {
-display: none;
+display: flex;
 background: var(--card);
 border: 1px solid var(--border);
 width: 50px;
@@ -423,6 +423,11 @@ cursor: not-allowed;
 .completion-screen, .topic-selection-screen, .level-selection {
 text-align: center;
 padding: 40px 20px;
+}
+.topic-selection-screen {
+/* Pull this screen up slightly (closer to the header controls area) */
+margin-top: -20px;
+padding-top: 20px;
 }
 .completion-screen h2, .topic-selection-screen h2, .level-selection h2 {
 font-size: 2.2rem;
