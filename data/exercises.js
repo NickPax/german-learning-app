@@ -5212,9 +5212,9 @@ export const exercises = {
           type: "tts",
           audioText: "Hamburg, das ich letztes Jahr besucht habe, ist eine wunderschöne Hafenstadt im Norden Deutschlands.",
           translation: "Hamburg, which I visited last year, is a beautiful port city in the north of Germany.",
-          topics: ["Describing a past visit", "Praising a city", "Sharing travel memories", "Recommending destinations"],
+          topics: ["Praising a city", "Ordering food at a restaurant", "Asking for directions", "Talking about the weather"],
           correct: 0,
-          explanation: "The speaker is describing a past visit using a relative clause (das) and past tense.",
+          explanation: "The sentence praises Hamburg ('wunderschöne Hafenstadt') while mentioning a past visit (relative clause 'das' + past tense).",
           level: 2,
           vocabularyIds: ["stadt"]
         },

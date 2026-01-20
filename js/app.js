@@ -248,12 +248,19 @@ function loadExercise() {
     if (exercise.type === 'tts') {
         if (!exercise.currentTopics) {
             const topics = [...exercise.topics];
-            const correctTopic = topics[exercise.correct];
+            const correctIndices = Array.isArray(exercise.correct) ? exercise.correct : [exercise.correct];
+            const correctTopics = correctIndices
+                .map((i) => topics[i])
+                .filter((t) => typeof t === 'string');
             const shuffledTopics = shuffleArray(topics);
-            const newCorrectIndex = shuffledTopics.indexOf(correctTopic);
+            const newCorrectIndices = correctTopics
+                .map((t) => shuffledTopics.indexOf(t))
+                .filter((i) => i >= 0);
             
             exercise.currentTopics = shuffledTopics;
-            exercise.currentCorrect = newCorrectIndex;
+            // Back-compat: some UI paths still expect a single index
+            exercise.currentCorrect = newCorrectIndices[0] ?? 0;
+            exercise.currentCorrectSet = newCorrectIndices.length ? newCorrectIndices : [exercise.currentCorrect];
         }
     }
     
@@ -390,7 +397,10 @@ function handleMissingWordAnswer(selectedIndex, correctIndex, exercise) {
 function handleTTSAnswer(selectedIndex, correctIndex, exercise) {
     userAnswers[currentExercise] = selectedIndex;
     
-    if (selectedIndex === correctIndex) {
+    const correctSet = exercise.currentCorrectSet || (correctIndex !== undefined ? [correctIndex] : []);
+    const isCorrect = correctSet.includes(selectedIndex);
+    
+    if (isCorrect) {
         points += 10;
         if (pointsDisplay) pointsDisplay.textContent = points;
     }
@@ -401,12 +411,12 @@ function handleTTSAnswer(selectedIndex, correctIndex, exercise) {
         if (index === selectedIndex) {
             card.classList.add('selected');
         }
-        if (index === correctIndex) {
+        if (correctSet.includes(index)) {
             card.classList.add('correct');
         }
     });
     
-    showFeedback(selectedIndex === correctIndex, exercise.explanation, exercise, false);
+    showFeedback(isCorrect, exercise.explanation, exercise, false);
     
     // Show audio text after answer
     const audioTextDisplay = document.getElementById('audio-text-display');

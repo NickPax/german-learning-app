@@ -419,6 +419,7 @@ export function renderTTsExercise(exercise, currentExercise, userAnswers, onAnsw
     
     const topics = exercise.currentTopics || exercise.topics;
     const correctIndex = exercise.currentCorrect !== undefined ? exercise.currentCorrect : exercise.correct;
+    const correctSet = exercise.currentCorrectSet || (Array.isArray(correctIndex) ? correctIndex : [correctIndex]);
     
     topics.forEach((topic, index) => {
         const topicCard = document.createElement('div');
@@ -431,7 +432,7 @@ export function renderTTsExercise(exercise, currentExercise, userAnswers, onAnsw
             if (index === userAnswers[currentExercise]) {
                 topicCard.classList.add('selected');
             }
-            if (userAnswers[currentExercise] !== correctIndex && index === correctIndex) {
+            if (!correctSet.includes(userAnswers[currentExercise]) && correctSet.includes(index)) {
                 topicCard.classList.add('correct');
             }
         }
